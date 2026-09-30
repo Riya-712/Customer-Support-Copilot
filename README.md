@@ -139,20 +139,6 @@ If authoritative evidence is unavailable, the response is downgraded to:
 
 > Insufficient information — manual review recommended.
 
-
-## Evaluation
-
-From Streamlit, open **Evaluation** and run the held-out evaluation. It makes Groq calls and therefore consumes API usage.
-
-For a script-level run:
-
-```python
-from src.evaluation.evaluator import Evaluator
-print(Evaluator().run())
-```
-
-Do not substitute training/development tickets for the held-out set when reporting portfolio metrics.
-
 ## Limitations
 
 - Synthetic data is useful for engineering demonstration but does not represent production customer behavior.
