@@ -1,6 +1,6 @@
 # NovaMart Multi-Category Retail Customer Support Copilot
 
-Phase 1 portfolio project: a modular AI support-agent foundation plus an enterprise-style Streamlit workspace.
+[live Demo](http://localhost:8502)
 
 ## Project overview
 
@@ -41,56 +41,6 @@ flowchart LR
 - Pydantic / pydantic-settings
 - Streamlit
 - pytest
-
-## Repository structure
-
-```text
-app.py
-pages/
-  1_support_queue.py
-  2_ticket_workspace.py
-  3_knowledge_base.py
-  4_feedback_analytics.py
-  5_diagnostics.py
-  6_evaluation.py
-src/
-  config.py
-  llm/
-    groq_client.py
-    prompts.py
-  embeddings/
-    embedding_service.py
-  rag/
-    ingest.py
-    retriever.py
-    chunker.py
-  support/
-    ticket_analyzer.py
-    intent_classifier.py
-    summarizer.py
-    customer_context.py
-    response_generator.py
-    recommendation_engine.py
-  data/
-    customer_repository.py
-    order_repository.py
-    ticket_repository.py
-  evaluation/
-    evaluator.py
-    metrics.py
-scripts/
-  generate_data.py
-  ingest_knowledge.py
-data/
-  customers.json
-  orders.json
-  products.json
-  tickets.json
-  evaluation_tickets.json
-  knowledge_base/
-  chroma/              # generated locally; gitignored
-  feedback.jsonl        # generated locally; gitignored
-```
 
 ## Dataset
 
@@ -175,8 +125,6 @@ Generation-quality metrics such as groundedness/citation correctness are impleme
 
 ## Safety and grounding
 
-Customer text is treated as untrusted data. Prompt-injection attempts cannot change the system instructions.
-
 The model is explicitly forbidden from inventing:
 
 - refunds
@@ -191,68 +139,6 @@ If authoritative evidence is unavailable, the response is downgraded to:
 
 > Insufficient information — manual review recommended.
 
-Citation output is post-validated against the actual retrieved knowledge sources. Fabricated source IDs are discarded.
-
-## Setup
-
-Python 3.11+ is recommended.
-
-```bash
-python -m venv .venv
-.venv\\Scripts\\activate        # Windows
-# source .venv/bin/activate       # macOS/Linux
-pip install -r requirements.txt
-copy .env.example .env           # Windows
-```
-
-Set the secret only in `.env`:
-
-```text
-GROQ_API_KEY=...
-GROQ_MODEL=openai/gpt-oss-120b
-EMBEDDING_MODEL=BAAI/bge-small-en-v1.5
-CHROMA_PATH=./data/chroma
-TOP_K=5
-TEMPERATURE=0.1
-```
-
-Never commit `.env`.
-
-## Generate/validate data
-
-The Part 1 dataset is already included. The generation script validates the 1,000-ticket corpus and creates the 20-ticket held-out split:
-
-```bash
-python scripts/generate_data.py
-```
-
-## Build Chroma indexes
-
-```bash
-python scripts/ingest_knowledge.py
-```
-
-This downloads/loads the Hugging Face embedding model on first use and persists Chroma under `data/chroma/`.
-
-## Run tests
-
-```bash
-pytest -q
-```
-
-## Run Streamlit
-
-```bash
-streamlit run app.py
-```
-
-## CLI smoke test
-
-After the Chroma index and `.env` are configured:
-
-```bash
-python -m src.cli --ticket-id TKT-000001
-```
 
 ## Evaluation
 
@@ -267,16 +153,6 @@ print(Evaluator().run())
 
 Do not substitute training/development tickets for the held-out set when reporting portfolio metrics.
 
-## Screenshots
-
-Add screenshots here after running the Streamlit application:
-
-1. Support Queue
-2. Ticket Workspace
-3. Knowledge Base
-4. Diagnostics
-5. Evaluation
-
 ## Limitations
 
 - Synthetic data is useful for engineering demonstration but does not represent production customer behavior.
@@ -287,9 +163,6 @@ Add screenshots here after running the Streamlit application:
 
 ## Future improvements
 
-- Add a cross-encoder reranker.
-- Add conversation memory with strict PII minimization.
-- Add offline prompt/version tracking.
 - Add human-reviewed evaluation annotations.
 - Add OpenTelemetry/LLM tracing.
 - Add authentication and role-based access control.
