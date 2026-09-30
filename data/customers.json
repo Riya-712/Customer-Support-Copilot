@@ -1,0 +1,6493 @@
+[
+  {
+    "customer_id": "CUST-00001",
+    "name": "Karan Desai",
+    "email": "karan.desai1@example.invalid",
+    "phone": "+91-9814699320",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-04-29",
+    "preferred_categories": [
+      "Grocery",
+      "Beauty",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00002",
+    "name": "Vikram Sharma",
+    "email": "vikram.sharma2@example.invalid",
+    "phone": "+91-9434294693",
+    "city": "Jaipur",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-05-15",
+    "preferred_categories": [
+      "Accessories",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00003",
+    "name": "Neil Kapoor",
+    "email": "neil.kapoor3@example.invalid",
+    "phone": "+91-9964493031",
+    "city": "Pune",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-09-21",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00004",
+    "name": "Rohan Kulkarni",
+    "email": "rohan.kulkarni4@example.invalid",
+    "phone": "+91-9629051800",
+    "city": "Bengaluru",
+    "loyalty_tier": "Gold",
+    "signup_date": "2023-09-25",
+    "preferred_categories": [
+      "Accessories",
+      "Books",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00005",
+    "name": "Nisha Desai",
+    "email": "nisha.desai5@example.invalid",
+    "phone": "+91-9317890178",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-04-01",
+    "preferred_categories": [
+      "Grocery",
+      "Electronics",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00006",
+    "name": "Rohan Joshi",
+    "email": "rohan.joshi6@example.invalid",
+    "phone": "+91-9458042454",
+    "city": "Kolkata",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-09-27",
+    "preferred_categories": [
+      "Accessories",
+      "Fashion",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00007",
+    "name": "Meera Iyer",
+    "email": "meera.iyer7@example.invalid",
+    "phone": "+91-9245979751",
+    "city": "Indore",
+    "loyalty_tier": "Gold",
+    "signup_date": "2023-07-06",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00008",
+    "name": "Vihaan Mehta",
+    "email": "vihaan.mehta8@example.invalid",
+    "phone": "+91-9279167197",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-04-12",
+    "preferred_categories": [
+      "Beauty",
+      "Fashion",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00009",
+    "name": "Diya Verma",
+    "email": "diya.verma9@example.invalid",
+    "phone": "+91-9654894034",
+    "city": "Jaipur",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-11-06",
+    "preferred_categories": [
+      "Electronics",
+      "Accessories",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00010",
+    "name": "Dev Verma",
+    "email": "dev.verma10@example.invalid",
+    "phone": "+91-9253739635",
+    "city": "Delhi",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-09-26",
+    "preferred_categories": [
+      "Fashion",
+      "Sports",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00011",
+    "name": "Kabir Mehta",
+    "email": "kabir.mehta11@example.invalid",
+    "phone": "+91-9385698976",
+    "city": "Jaipur",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2023-09-13",
+    "preferred_categories": [
+      "Accessories",
+      "Home & Kitchen",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00012",
+    "name": "Tara Malhotra",
+    "email": "tara.malhotra12@example.invalid",
+    "phone": "+91-9240536900",
+    "city": "Chennai",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-09-30",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00013",
+    "name": "Vihaan Patel",
+    "email": "vihaan.patel13@example.invalid",
+    "phone": "+91-9164355972",
+    "city": "Pune",
+    "loyalty_tier": "Gold",
+    "signup_date": "2026-01-04",
+    "preferred_categories": [
+      "Fashion",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00014",
+    "name": "Riya Verma",
+    "email": "riya.verma14@example.invalid",
+    "phone": "+91-9170386052",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-10-25",
+    "preferred_categories": [
+      "Sports",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00015",
+    "name": "Anaya Nair",
+    "email": "anaya.nair15@example.invalid",
+    "phone": "+91-9905620633",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-11-26",
+    "preferred_categories": [
+      "Electronics",
+      "Accessories",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00016",
+    "name": "Nisha Iyer",
+    "email": "nisha.iyer16@example.invalid",
+    "phone": "+91-9333703655",
+    "city": "Jaipur",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-12-28",
+    "preferred_categories": [
+      "Beauty",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00017",
+    "name": "Nisha Kulkarni",
+    "email": "nisha.kulkarni17@example.invalid",
+    "phone": "+91-9695140353",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-05-22",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00018",
+    "name": "Rohan Nair",
+    "email": "rohan.nair18@example.invalid",
+    "phone": "+91-9140199137",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-04-10",
+    "preferred_categories": [
+      "Fashion",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00019",
+    "name": "Maya Kapoor",
+    "email": "maya.kapoor19@example.invalid",
+    "phone": "+91-9213229890",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-03-14",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Electronics",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00020",
+    "name": "Diya Joshi",
+    "email": "diya.joshi20@example.invalid",
+    "phone": "+91-9826304685",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-01-17",
+    "preferred_categories": [
+      "Electronics",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00021",
+    "name": "Ira Verma",
+    "email": "ira.verma21@example.invalid",
+    "phone": "+91-9108337826",
+    "city": "Mumbai",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2024-01-14",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00022",
+    "name": "Riya Verma",
+    "email": "riya.verma22@example.invalid",
+    "phone": "+91-9144832887",
+    "city": "Hyderabad",
+    "loyalty_tier": "Gold",
+    "signup_date": "2023-04-20",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00023",
+    "name": "Maya Gupta",
+    "email": "maya.gupta23@example.invalid",
+    "phone": "+91-9602795962",
+    "city": "Jaipur",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-04-23",
+    "preferred_categories": [
+      "Beauty",
+      "Accessories",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00024",
+    "name": "Kabir Verma",
+    "email": "kabir.verma24@example.invalid",
+    "phone": "+91-9272550749",
+    "city": "Bengaluru",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-09-17",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00025",
+    "name": "Diya Kapoor",
+    "email": "diya.kapoor25@example.invalid",
+    "phone": "+91-9377020722",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-06-15",
+    "preferred_categories": [
+      "Books",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00026",
+    "name": "Anaya Verma",
+    "email": "anaya.verma26@example.invalid",
+    "phone": "+91-9957370372",
+    "city": "Pune",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-03-27",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00027",
+    "name": "Sara Kulkarni",
+    "email": "sara.kulkarni27@example.invalid",
+    "phone": "+91-9479584114",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-03-21",
+    "preferred_categories": [
+      "Sports",
+      "Books",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00028",
+    "name": "Rohan Joshi",
+    "email": "rohan.joshi28@example.invalid",
+    "phone": "+91-9134127939",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-01-19",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00029",
+    "name": "Aarav Chopra",
+    "email": "aarav.chopra29@example.invalid",
+    "phone": "+91-9757733421",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-08-22",
+    "preferred_categories": [
+      "Fashion",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00030",
+    "name": "Aarav Malhotra",
+    "email": "aarav.malhotra30@example.invalid",
+    "phone": "+91-9621945407",
+    "city": "Bengaluru",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-12-17",
+    "preferred_categories": [
+      "Accessories",
+      "Books",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00031",
+    "name": "Vikram Bose",
+    "email": "vikram.bose31@example.invalid",
+    "phone": "+91-9602477163",
+    "city": "Pune",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-12-23",
+    "preferred_categories": [
+      "Electronics",
+      "Sports",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00032",
+    "name": "Maya Kapoor",
+    "email": "maya.kapoor32@example.invalid",
+    "phone": "+91-9101176537",
+    "city": "Chennai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-01-05",
+    "preferred_categories": [
+      "Electronics",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00033",
+    "name": "Vihaan Sharma",
+    "email": "vihaan.sharma33@example.invalid",
+    "phone": "+91-9157259163",
+    "city": "Kolkata",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-03-14",
+    "preferred_categories": [
+      "Grocery",
+      "Fashion",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00034",
+    "name": "Vihaan Kapoor",
+    "email": "vihaan.kapoor34@example.invalid",
+    "phone": "+91-9975825387",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-11-11",
+    "preferred_categories": [
+      "Electronics",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00035",
+    "name": "Meera Nair",
+    "email": "meera.nair35@example.invalid",
+    "phone": "+91-9265313514",
+    "city": "Bengaluru",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2026-01-02",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00036",
+    "name": "Sara Nair",
+    "email": "sara.nair36@example.invalid",
+    "phone": "+91-9684528102",
+    "city": "Hyderabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-10-10",
+    "preferred_categories": [
+      "Accessories",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00037",
+    "name": "Nisha Iyer",
+    "email": "nisha.iyer37@example.invalid",
+    "phone": "+91-9820817751",
+    "city": "Indore",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-05-26",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00038",
+    "name": "Rohan Patel",
+    "email": "rohan.patel38@example.invalid",
+    "phone": "+91-9364779053",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-08-06",
+    "preferred_categories": [
+      "Electronics",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00039",
+    "name": "Maya Sharma",
+    "email": "maya.sharma39@example.invalid",
+    "phone": "+91-9863186033",
+    "city": "Kolkata",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2025-05-17",
+    "preferred_categories": [
+      "Books",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00040",
+    "name": "Kabir Verma",
+    "email": "kabir.verma40@example.invalid",
+    "phone": "+91-9907025916",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-12-02",
+    "preferred_categories": [
+      "Books",
+      "Accessories",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00041",
+    "name": "Ira Sharma",
+    "email": "ira.sharma41@example.invalid",
+    "phone": "+91-9277682454",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-01-09",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00042",
+    "name": "Vikram Desai",
+    "email": "vikram.desai42@example.invalid",
+    "phone": "+91-9796046612",
+    "city": "Kolkata",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-04-15",
+    "preferred_categories": [
+      "Grocery",
+      "Books",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00043",
+    "name": "Meera Desai",
+    "email": "meera.desai43@example.invalid",
+    "phone": "+91-9344221748",
+    "city": "Hyderabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-11-01",
+    "preferred_categories": [
+      "Beauty",
+      "Grocery",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00044",
+    "name": "Aanya Desai",
+    "email": "aanya.desai44@example.invalid",
+    "phone": "+91-9457465803",
+    "city": "Pune",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-06-18",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00045",
+    "name": "Maya Kapoor",
+    "email": "maya.kapoor45@example.invalid",
+    "phone": "+91-9472555537",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-12-10",
+    "preferred_categories": [
+      "Fashion",
+      "Home & Kitchen",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00046",
+    "name": "Vikram Verma",
+    "email": "vikram.verma46@example.invalid",
+    "phone": "+91-9560655179",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-03-24",
+    "preferred_categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00047",
+    "name": "Kabir Nair",
+    "email": "kabir.nair47@example.invalid",
+    "phone": "+91-9677996411",
+    "city": "Jaipur",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-03-11",
+    "preferred_categories": [
+      "Sports",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00048",
+    "name": "Sara Gupta",
+    "email": "sara.gupta48@example.invalid",
+    "phone": "+91-9480772623",
+    "city": "Jaipur",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-05-20",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Grocery",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00049",
+    "name": "Sara Sinha",
+    "email": "sara.sinha49@example.invalid",
+    "phone": "+91-9293065802",
+    "city": "Jaipur",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-06-22",
+    "preferred_categories": [
+      "Grocery",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00050",
+    "name": "Vikram Desai",
+    "email": "vikram.desai50@example.invalid",
+    "phone": "+91-9276391215",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-08-10",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00051",
+    "name": "Arjun Mehta",
+    "email": "arjun.mehta51@example.invalid",
+    "phone": "+91-9515469365",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-10-15",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00052",
+    "name": "Tara Nair",
+    "email": "tara.nair52@example.invalid",
+    "phone": "+91-9278000983",
+    "city": "Chennai",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-01-10",
+    "preferred_categories": [
+      "Accessories",
+      "Fashion",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00053",
+    "name": "Maya Desai",
+    "email": "maya.desai53@example.invalid",
+    "phone": "+91-9141310784",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-04-08",
+    "preferred_categories": [
+      "Accessories",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00054",
+    "name": "Anaya Gupta",
+    "email": "anaya.gupta54@example.invalid",
+    "phone": "+91-9724525852",
+    "city": "Hyderabad",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2023-06-04",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00055",
+    "name": "Vikram Kulkarni",
+    "email": "vikram.kulkarni55@example.invalid",
+    "phone": "+91-9426938806",
+    "city": "Pune",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-06-13",
+    "preferred_categories": [
+      "Beauty",
+      "Books",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00056",
+    "name": "Vihaan Chopra",
+    "email": "vihaan.chopra56@example.invalid",
+    "phone": "+91-9569707758",
+    "city": "Hyderabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-12-13",
+    "preferred_categories": [
+      "Grocery",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00057",
+    "name": "Nisha Sharma",
+    "email": "nisha.sharma57@example.invalid",
+    "phone": "+91-9680763073",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-05-08",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00058",
+    "name": "Nisha Iyer",
+    "email": "nisha.iyer58@example.invalid",
+    "phone": "+91-9432503272",
+    "city": "Hyderabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-06-26",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00059",
+    "name": "Ira Patel",
+    "email": "ira.patel59@example.invalid",
+    "phone": "+91-9735138667",
+    "city": "Jaipur",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-11-26",
+    "preferred_categories": [
+      "Grocery",
+      "Home & Kitchen",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00060",
+    "name": "Diya Rao",
+    "email": "diya.rao60@example.invalid",
+    "phone": "+91-9402633846",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-02-25",
+    "preferred_categories": [
+      "Sports",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00061",
+    "name": "Arjun Nair",
+    "email": "arjun.nair61@example.invalid",
+    "phone": "+91-9193853022",
+    "city": "Bengaluru",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-01-14",
+    "preferred_categories": [
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00062",
+    "name": "Diya Rao",
+    "email": "diya.rao62@example.invalid",
+    "phone": "+91-9538905166",
+    "city": "Bengaluru",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-07-16",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Grocery",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00063",
+    "name": "Maya Chopra",
+    "email": "maya.chopra63@example.invalid",
+    "phone": "+91-9522383898",
+    "city": "Bengaluru",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-08-23",
+    "preferred_categories": [
+      "Fashion",
+      "Books",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00064",
+    "name": "Sara Chopra",
+    "email": "sara.chopra64@example.invalid",
+    "phone": "+91-9244450045",
+    "city": "Kolkata",
+    "loyalty_tier": "Gold",
+    "signup_date": "2023-09-17",
+    "preferred_categories": [
+      "Grocery",
+      "Books",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00065",
+    "name": "Nisha Joshi",
+    "email": "nisha.joshi65@example.invalid",
+    "phone": "+91-9624105500",
+    "city": "Jaipur",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-11-18",
+    "preferred_categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00066",
+    "name": "Aditya Nair",
+    "email": "aditya.nair66@example.invalid",
+    "phone": "+91-9494611589",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-06-19",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Books",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00067",
+    "name": "Tara Chopra",
+    "email": "tara.chopra67@example.invalid",
+    "phone": "+91-9231700265",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-10-21",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00068",
+    "name": "Aanya Sharma",
+    "email": "aanya.sharma68@example.invalid",
+    "phone": "+91-9943830575",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-06-25",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00069",
+    "name": "Tara Nair",
+    "email": "tara.nair69@example.invalid",
+    "phone": "+91-9496944796",
+    "city": "Jaipur",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-08-25",
+    "preferred_categories": [
+      "Accessories",
+      "Beauty",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00070",
+    "name": "Kabir Iyer",
+    "email": "kabir.iyer70@example.invalid",
+    "phone": "+91-9831438780",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-05-15",
+    "preferred_categories": [
+      "Beauty",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00071",
+    "name": "Neil Gupta",
+    "email": "neil.gupta71@example.invalid",
+    "phone": "+91-9180364600",
+    "city": "Hyderabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-08-17",
+    "preferred_categories": [
+      "Books",
+      "Accessories",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00072",
+    "name": "Rohan Kulkarni",
+    "email": "rohan.kulkarni72@example.invalid",
+    "phone": "+91-9743669419",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-06-24",
+    "preferred_categories": [
+      "Fashion",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00073",
+    "name": "Anaya Patel",
+    "email": "anaya.patel73@example.invalid",
+    "phone": "+91-9577385640",
+    "city": "Delhi",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-03-27",
+    "preferred_categories": [
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00074",
+    "name": "Vihaan Mehta",
+    "email": "vihaan.mehta74@example.invalid",
+    "phone": "+91-9729869579",
+    "city": "Hyderabad",
+    "loyalty_tier": "Gold",
+    "signup_date": "2023-01-14",
+    "preferred_categories": [
+      "Electronics",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00075",
+    "name": "Aarav Rao",
+    "email": "aarav.rao75@example.invalid",
+    "phone": "+91-9921242501",
+    "city": "Jaipur",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-12-11",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Sports",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00076",
+    "name": "Aanya Desai",
+    "email": "aanya.desai76@example.invalid",
+    "phone": "+91-9509912258",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-06-16",
+    "preferred_categories": [
+      "Accessories",
+      "Books",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00077",
+    "name": "Rohan Malhotra",
+    "email": "rohan.malhotra77@example.invalid",
+    "phone": "+91-9360860780",
+    "city": "Chennai",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-03-31",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00078",
+    "name": "Kabir Chopra",
+    "email": "kabir.chopra78@example.invalid",
+    "phone": "+91-9823436023",
+    "city": "Bengaluru",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-09-27",
+    "preferred_categories": [
+      "Accessories",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00079",
+    "name": "Rohan Sharma",
+    "email": "rohan.sharma79@example.invalid",
+    "phone": "+91-9639404093",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-03-08",
+    "preferred_categories": [
+      "Electronics",
+      "Books",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00080",
+    "name": "Neil Kulkarni",
+    "email": "neil.kulkarni80@example.invalid",
+    "phone": "+91-9252299629",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-05-08",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Sports",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00081",
+    "name": "Rohan Rao",
+    "email": "rohan.rao81@example.invalid",
+    "phone": "+91-9943411227",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-12-08",
+    "preferred_categories": [
+      "Accessories",
+      "Fashion",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00082",
+    "name": "Ira Chopra",
+    "email": "ira.chopra82@example.invalid",
+    "phone": "+91-9710762429",
+    "city": "Indore",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-05-30",
+    "preferred_categories": [
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00083",
+    "name": "Rohan Joshi",
+    "email": "rohan.joshi83@example.invalid",
+    "phone": "+91-9394899679",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-12-23",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00084",
+    "name": "Aanya Rao",
+    "email": "aanya.rao84@example.invalid",
+    "phone": "+91-9950836030",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-09-18",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Fashion",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00085",
+    "name": "Aanya Kapoor",
+    "email": "aanya.kapoor85@example.invalid",
+    "phone": "+91-9715282983",
+    "city": "Chennai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-07-07",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Beauty",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00086",
+    "name": "Vikram Sharma",
+    "email": "vikram.sharma86@example.invalid",
+    "phone": "+91-9469089508",
+    "city": "Pune",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-03-04",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00087",
+    "name": "Vihaan Desai",
+    "email": "vihaan.desai87@example.invalid",
+    "phone": "+91-9320393112",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-10-01",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00088",
+    "name": "Arjun Kapoor",
+    "email": "arjun.kapoor88@example.invalid",
+    "phone": "+91-9987728905",
+    "city": "Bengaluru",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-12-23",
+    "preferred_categories": [
+      "Electronics",
+      "Beauty",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00089",
+    "name": "Nisha Bose",
+    "email": "nisha.bose89@example.invalid",
+    "phone": "+91-9867878723",
+    "city": "Bengaluru",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-04-08",
+    "preferred_categories": [
+      "Grocery",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00090",
+    "name": "Neil Desai",
+    "email": "neil.desai90@example.invalid",
+    "phone": "+91-9981946538",
+    "city": "Chennai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-01-08",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00091",
+    "name": "Maya Joshi",
+    "email": "maya.joshi91@example.invalid",
+    "phone": "+91-9737877119",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-07-01",
+    "preferred_categories": [
+      "Sports",
+      "Electronics",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00092",
+    "name": "Nisha Rao",
+    "email": "nisha.rao92@example.invalid",
+    "phone": "+91-9537362568",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-10-07",
+    "preferred_categories": [
+      "Fashion",
+      "Grocery",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00093",
+    "name": "Arjun Chopra",
+    "email": "arjun.chopra93@example.invalid",
+    "phone": "+91-9337200344",
+    "city": "Delhi",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-02-23",
+    "preferred_categories": [
+      "Books",
+      "Grocery",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00094",
+    "name": "Vikram Iyer",
+    "email": "vikram.iyer94@example.invalid",
+    "phone": "+91-9417003947",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-06-23",
+    "preferred_categories": [
+      "Electronics",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00095",
+    "name": "Sara Nair",
+    "email": "sara.nair95@example.invalid",
+    "phone": "+91-9705807903",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-07-27",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00096",
+    "name": "Diya Sinha",
+    "email": "diya.sinha96@example.invalid",
+    "phone": "+91-9960149793",
+    "city": "Pune",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-11-30",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00097",
+    "name": "Rohan Gupta",
+    "email": "rohan.gupta97@example.invalid",
+    "phone": "+91-9945153901",
+    "city": "Chennai",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-03-26",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00098",
+    "name": "Aanya Gupta",
+    "email": "aanya.gupta98@example.invalid",
+    "phone": "+91-9974576005",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-02-04",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00099",
+    "name": "Meera Kapoor",
+    "email": "meera.kapoor99@example.invalid",
+    "phone": "+91-9818981841",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-03-25",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Grocery",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00100",
+    "name": "Tara Kulkarni",
+    "email": "tara.kulkarni100@example.invalid",
+    "phone": "+91-9975341934",
+    "city": "Pune",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-07-24",
+    "preferred_categories": [
+      "Grocery",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00101",
+    "name": "Tara Chopra",
+    "email": "tara.chopra101@example.invalid",
+    "phone": "+91-9780588261",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-09-29",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00102",
+    "name": "Anaya Malhotra",
+    "email": "anaya.malhotra102@example.invalid",
+    "phone": "+91-9347883319",
+    "city": "Bengaluru",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-08-10",
+    "preferred_categories": [
+      "Fashion",
+      "Home & Kitchen",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00103",
+    "name": "Dev Mehta",
+    "email": "dev.mehta103@example.invalid",
+    "phone": "+91-9921925663",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-07-10",
+    "preferred_categories": [
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00104",
+    "name": "Riya Iyer",
+    "email": "riya.iyer104@example.invalid",
+    "phone": "+91-9580793417",
+    "city": "Bengaluru",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-08-15",
+    "preferred_categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00105",
+    "name": "Kabir Malhotra",
+    "email": "kabir.malhotra105@example.invalid",
+    "phone": "+91-9741820778",
+    "city": "Jaipur",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2025-02-20",
+    "preferred_categories": [
+      "Electronics",
+      "Books",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00106",
+    "name": "Meera Nair",
+    "email": "meera.nair106@example.invalid",
+    "phone": "+91-9215593819",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-04-19",
+    "preferred_categories": [
+      "Sports",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00107",
+    "name": "Meera Gupta",
+    "email": "meera.gupta107@example.invalid",
+    "phone": "+91-9318349237",
+    "city": "Hyderabad",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-10-02",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00108",
+    "name": "Karan Chopra",
+    "email": "karan.chopra108@example.invalid",
+    "phone": "+91-9929524873",
+    "city": "Indore",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-04-08",
+    "preferred_categories": [
+      "Electronics",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00109",
+    "name": "Diya Bose",
+    "email": "diya.bose109@example.invalid",
+    "phone": "+91-9416180957",
+    "city": "Chennai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-03-27",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00110",
+    "name": "Meera Patel",
+    "email": "meera.patel110@example.invalid",
+    "phone": "+91-9307069388",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-12-28",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00111",
+    "name": "Neil Bose",
+    "email": "neil.bose111@example.invalid",
+    "phone": "+91-9176930836",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-04-24",
+    "preferred_categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00112",
+    "name": "Ira Iyer",
+    "email": "ira.iyer112@example.invalid",
+    "phone": "+91-9318414156",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-03-28",
+    "preferred_categories": [
+      "Accessories",
+      "Electronics",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00113",
+    "name": "Aanya Joshi",
+    "email": "aanya.joshi113@example.invalid",
+    "phone": "+91-9267568340",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-08-09",
+    "preferred_categories": [
+      "Accessories",
+      "Beauty",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00114",
+    "name": "Meera Sharma",
+    "email": "meera.sharma114@example.invalid",
+    "phone": "+91-9713272975",
+    "city": "Mumbai",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2025-07-05",
+    "preferred_categories": [
+      "Accessories",
+      "Grocery",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00115",
+    "name": "Vikram Patel",
+    "email": "vikram.patel115@example.invalid",
+    "phone": "+91-9259406977",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-08-22",
+    "preferred_categories": [
+      "Grocery",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00116",
+    "name": "Meera Nair",
+    "email": "meera.nair116@example.invalid",
+    "phone": "+91-9218141080",
+    "city": "Bengaluru",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-11-05",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00117",
+    "name": "Vikram Mehta",
+    "email": "vikram.mehta117@example.invalid",
+    "phone": "+91-9381425511",
+    "city": "Indore",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2024-07-16",
+    "preferred_categories": [
+      "Beauty",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00118",
+    "name": "Riya Sinha",
+    "email": "riya.sinha118@example.invalid",
+    "phone": "+91-9794805522",
+    "city": "Chennai",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-08-04",
+    "preferred_categories": [
+      "Beauty",
+      "Grocery",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00119",
+    "name": "Ira Patel",
+    "email": "ira.patel119@example.invalid",
+    "phone": "+91-9247549676",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-03-17",
+    "preferred_categories": [
+      "Sports",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00120",
+    "name": "Karan Mehta",
+    "email": "karan.mehta120@example.invalid",
+    "phone": "+91-9221166725",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-12-15",
+    "preferred_categories": [
+      "Books",
+      "Home & Kitchen",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00121",
+    "name": "Nisha Sinha",
+    "email": "nisha.sinha121@example.invalid",
+    "phone": "+91-9440556762",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-03-10",
+    "preferred_categories": [
+      "Books",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00122",
+    "name": "Arjun Mehta",
+    "email": "arjun.mehta122@example.invalid",
+    "phone": "+91-9845818186",
+    "city": "Bengaluru",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-07-29",
+    "preferred_categories": [
+      "Accessories",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00123",
+    "name": "Diya Joshi",
+    "email": "diya.joshi123@example.invalid",
+    "phone": "+91-9879095146",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-03-05",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00124",
+    "name": "Neil Sharma",
+    "email": "neil.sharma124@example.invalid",
+    "phone": "+91-9426877471",
+    "city": "Pune",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-07-27",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00125",
+    "name": "Diya Iyer",
+    "email": "diya.iyer125@example.invalid",
+    "phone": "+91-9832583552",
+    "city": "Indore",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-05-26",
+    "preferred_categories": [
+      "Fashion",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00126",
+    "name": "Maya Kulkarni",
+    "email": "maya.kulkarni126@example.invalid",
+    "phone": "+91-9421546413",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-10-03",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00127",
+    "name": "Arjun Kapoor",
+    "email": "arjun.kapoor127@example.invalid",
+    "phone": "+91-9433557252",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-12-01",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Books",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00128",
+    "name": "Dev Desai",
+    "email": "dev.desai128@example.invalid",
+    "phone": "+91-9505653693",
+    "city": "Pune",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-03-27",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00129",
+    "name": "Vihaan Sharma",
+    "email": "vihaan.sharma129@example.invalid",
+    "phone": "+91-9753900036",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-10-29",
+    "preferred_categories": [
+      "Fashion",
+      "Beauty",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00130",
+    "name": "Riya Sharma",
+    "email": "riya.sharma130@example.invalid",
+    "phone": "+91-9770096265",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-09-07",
+    "preferred_categories": [
+      "Fashion",
+      "Beauty",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00131",
+    "name": "Aditya Bose",
+    "email": "aditya.bose131@example.invalid",
+    "phone": "+91-9139757337",
+    "city": "Bengaluru",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-11-18",
+    "preferred_categories": [
+      "Grocery",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00132",
+    "name": "Vikram Nair",
+    "email": "vikram.nair132@example.invalid",
+    "phone": "+91-9757553536",
+    "city": "Jaipur",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-11-09",
+    "preferred_categories": [
+      "Books",
+      "Beauty",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00133",
+    "name": "Meera Kulkarni",
+    "email": "meera.kulkarni133@example.invalid",
+    "phone": "+91-9901202393",
+    "city": "Chennai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-12-21",
+    "preferred_categories": [
+      "Beauty",
+      "Fashion",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00134",
+    "name": "Riya Joshi",
+    "email": "riya.joshi134@example.invalid",
+    "phone": "+91-9270815900",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-11-27",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00135",
+    "name": "Riya Kulkarni",
+    "email": "riya.kulkarni135@example.invalid",
+    "phone": "+91-9723199185",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-12-03",
+    "preferred_categories": [
+      "Electronics",
+      "Accessories",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00136",
+    "name": "Diya Desai",
+    "email": "diya.desai136@example.invalid",
+    "phone": "+91-9488950010",
+    "city": "Kolkata",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-07-22",
+    "preferred_categories": [
+      "Accessories",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00137",
+    "name": "Karan Patel",
+    "email": "karan.patel137@example.invalid",
+    "phone": "+91-9775063687",
+    "city": "Pune",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-08-25",
+    "preferred_categories": [
+      "Beauty",
+      "Grocery",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00138",
+    "name": "Vikram Verma",
+    "email": "vikram.verma138@example.invalid",
+    "phone": "+91-9596859949",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-07-06",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00139",
+    "name": "Vihaan Malhotra",
+    "email": "vihaan.malhotra139@example.invalid",
+    "phone": "+91-9139030372",
+    "city": "Chennai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-08-27",
+    "preferred_categories": [
+      "Sports",
+      "Accessories",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00140",
+    "name": "Arjun Kapoor",
+    "email": "arjun.kapoor140@example.invalid",
+    "phone": "+91-9862478860",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-01-22",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00141",
+    "name": "Kabir Nair",
+    "email": "kabir.nair141@example.invalid",
+    "phone": "+91-9474732079",
+    "city": "Delhi",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2024-12-26",
+    "preferred_categories": [
+      "Fashion",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00142",
+    "name": "Aanya Patel",
+    "email": "aanya.patel142@example.invalid",
+    "phone": "+91-9574036614",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-02-27",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00143",
+    "name": "Aditya Sinha",
+    "email": "aditya.sinha143@example.invalid",
+    "phone": "+91-9688548895",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-04-14",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00144",
+    "name": "Diya Kulkarni",
+    "email": "diya.kulkarni144@example.invalid",
+    "phone": "+91-9821594651",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-12-20",
+    "preferred_categories": [
+      "Grocery",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00145",
+    "name": "Kabir Kapoor",
+    "email": "kabir.kapoor145@example.invalid",
+    "phone": "+91-9260767525",
+    "city": "Bengaluru",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-12-23",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00146",
+    "name": "Tara Sinha",
+    "email": "tara.sinha146@example.invalid",
+    "phone": "+91-9879292322",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-08-15",
+    "preferred_categories": [
+      "Books",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00147",
+    "name": "Kabir Bose",
+    "email": "kabir.bose147@example.invalid",
+    "phone": "+91-9127598806",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-09-16",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00148",
+    "name": "Neil Sharma",
+    "email": "neil.sharma148@example.invalid",
+    "phone": "+91-9517409356",
+    "city": "Bengaluru",
+    "loyalty_tier": "Gold",
+    "signup_date": "2023-03-05",
+    "preferred_categories": [
+      "Sports",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00149",
+    "name": "Dev Verma",
+    "email": "dev.verma149@example.invalid",
+    "phone": "+91-9481794996",
+    "city": "Bengaluru",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2024-03-20",
+    "preferred_categories": [
+      "Sports",
+      "Home & Kitchen",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00150",
+    "name": "Diya Bose",
+    "email": "diya.bose150@example.invalid",
+    "phone": "+91-9363904212",
+    "city": "Mumbai",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2023-02-09",
+    "preferred_categories": [
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00151",
+    "name": "Aanya Sharma",
+    "email": "aanya.sharma151@example.invalid",
+    "phone": "+91-9124594616",
+    "city": "Bengaluru",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-11-17",
+    "preferred_categories": [
+      "Accessories",
+      "Electronics",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00152",
+    "name": "Sara Rao",
+    "email": "sara.rao152@example.invalid",
+    "phone": "+91-9334892301",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-07-12",
+    "preferred_categories": [
+      "Beauty",
+      "Accessories",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00153",
+    "name": "Tara Desai",
+    "email": "tara.desai153@example.invalid",
+    "phone": "+91-9628635975",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-09-28",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00154",
+    "name": "Aanya Nair",
+    "email": "aanya.nair154@example.invalid",
+    "phone": "+91-9724235740",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-01-05",
+    "preferred_categories": [
+      "Beauty",
+      "Home & Kitchen",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00155",
+    "name": "Vikram Rao",
+    "email": "vikram.rao155@example.invalid",
+    "phone": "+91-9514188104",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-12-16",
+    "preferred_categories": [
+      "Accessories",
+      "Grocery",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00156",
+    "name": "Arjun Iyer",
+    "email": "arjun.iyer156@example.invalid",
+    "phone": "+91-9220753744",
+    "city": "Jaipur",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2025-11-14",
+    "preferred_categories": [
+      "Beauty",
+      "Books",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00157",
+    "name": "Ira Gupta",
+    "email": "ira.gupta157@example.invalid",
+    "phone": "+91-9828360240",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-09-30",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00158",
+    "name": "Diya Sinha",
+    "email": "diya.sinha158@example.invalid",
+    "phone": "+91-9142452447",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-10-26",
+    "preferred_categories": [
+      "Fashion",
+      "Beauty",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00159",
+    "name": "Sara Joshi",
+    "email": "sara.joshi159@example.invalid",
+    "phone": "+91-9223638784",
+    "city": "Hyderabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-12-15",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00160",
+    "name": "Dev Rao",
+    "email": "dev.rao160@example.invalid",
+    "phone": "+91-9289571473",
+    "city": "Bengaluru",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-08-28",
+    "preferred_categories": [
+      "Beauty",
+      "Books",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00161",
+    "name": "Karan Rao",
+    "email": "karan.rao161@example.invalid",
+    "phone": "+91-9717132444",
+    "city": "Pune",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-04-15",
+    "preferred_categories": [
+      "Accessories",
+      "Fashion",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00162",
+    "name": "Rohan Iyer",
+    "email": "rohan.iyer162@example.invalid",
+    "phone": "+91-9898135762",
+    "city": "Bengaluru",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-05-07",
+    "preferred_categories": [
+      "Grocery",
+      "Fashion",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00163",
+    "name": "Kabir Kapoor",
+    "email": "kabir.kapoor163@example.invalid",
+    "phone": "+91-9905669126",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-04-21",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00164",
+    "name": "Neil Rao",
+    "email": "neil.rao164@example.invalid",
+    "phone": "+91-9647532479",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-02-16",
+    "preferred_categories": [
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00165",
+    "name": "Vihaan Patel",
+    "email": "vihaan.patel165@example.invalid",
+    "phone": "+91-9557998583",
+    "city": "Jaipur",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-01-12",
+    "preferred_categories": [
+      "Sports",
+      "Electronics",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00166",
+    "name": "Ira Kapoor",
+    "email": "ira.kapoor166@example.invalid",
+    "phone": "+91-9479273023",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-03-24",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00167",
+    "name": "Meera Rao",
+    "email": "meera.rao167@example.invalid",
+    "phone": "+91-9315810439",
+    "city": "Mumbai",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-01-11",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00168",
+    "name": "Rohan Desai",
+    "email": "rohan.desai168@example.invalid",
+    "phone": "+91-9437288426",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-06-11",
+    "preferred_categories": [
+      "Books",
+      "Electronics",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00169",
+    "name": "Vikram Verma",
+    "email": "vikram.verma169@example.invalid",
+    "phone": "+91-9574832451",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-11-15",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00170",
+    "name": "Ira Kulkarni",
+    "email": "ira.kulkarni170@example.invalid",
+    "phone": "+91-9928635314",
+    "city": "Hyderabad",
+    "loyalty_tier": "Gold",
+    "signup_date": "2023-04-08",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00171",
+    "name": "Sara Patel",
+    "email": "sara.patel171@example.invalid",
+    "phone": "+91-9557635004",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-02-29",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00172",
+    "name": "Riya Patel",
+    "email": "riya.patel172@example.invalid",
+    "phone": "+91-9281913745",
+    "city": "Pune",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-11-27",
+    "preferred_categories": [
+      "Books",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00173",
+    "name": "Aanya Gupta",
+    "email": "aanya.gupta173@example.invalid",
+    "phone": "+91-9455402975",
+    "city": "Chennai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-05-19",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Electronics",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00174",
+    "name": "Neil Nair",
+    "email": "neil.nair174@example.invalid",
+    "phone": "+91-9937009670",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-10-14",
+    "preferred_categories": [
+      "Fashion",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00175",
+    "name": "Tara Rao",
+    "email": "tara.rao175@example.invalid",
+    "phone": "+91-9618172236",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-04-17",
+    "preferred_categories": [
+      "Accessories",
+      "Beauty",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00176",
+    "name": "Aanya Joshi",
+    "email": "aanya.joshi176@example.invalid",
+    "phone": "+91-9457400493",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-12-17",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00177",
+    "name": "Sara Iyer",
+    "email": "sara.iyer177@example.invalid",
+    "phone": "+91-9967715801",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-09-17",
+    "preferred_categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00178",
+    "name": "Karan Rao",
+    "email": "karan.rao178@example.invalid",
+    "phone": "+91-9989528950",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-07-23",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00179",
+    "name": "Anaya Verma",
+    "email": "anaya.verma179@example.invalid",
+    "phone": "+91-9885973998",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-12-03",
+    "preferred_categories": [
+      "Electronics",
+      "Home & Kitchen",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00180",
+    "name": "Kabir Desai",
+    "email": "kabir.desai180@example.invalid",
+    "phone": "+91-9122770342",
+    "city": "Hyderabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-05-25",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00181",
+    "name": "Meera Nair",
+    "email": "meera.nair181@example.invalid",
+    "phone": "+91-9154562909",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-03-17",
+    "preferred_categories": [
+      "Fashion",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00182",
+    "name": "Aanya Kapoor",
+    "email": "aanya.kapoor182@example.invalid",
+    "phone": "+91-9718973090",
+    "city": "Delhi",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2025-08-18",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00183",
+    "name": "Diya Gupta",
+    "email": "diya.gupta183@example.invalid",
+    "phone": "+91-9764000070",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-03-18",
+    "preferred_categories": [
+      "Accessories",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00184",
+    "name": "Vikram Malhotra",
+    "email": "vikram.malhotra184@example.invalid",
+    "phone": "+91-9180166283",
+    "city": "Chennai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2026-01-03",
+    "preferred_categories": [
+      "Grocery",
+      "Beauty",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00185",
+    "name": "Vihaan Chopra",
+    "email": "vihaan.chopra185@example.invalid",
+    "phone": "+91-9640399237",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-01-24",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00186",
+    "name": "Karan Mehta",
+    "email": "karan.mehta186@example.invalid",
+    "phone": "+91-9750967711",
+    "city": "Pune",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-03-07",
+    "preferred_categories": [
+      "Sports",
+      "Grocery",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00187",
+    "name": "Karan Malhotra",
+    "email": "karan.malhotra187@example.invalid",
+    "phone": "+91-9771666774",
+    "city": "Hyderabad",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-01-15",
+    "preferred_categories": [
+      "Grocery",
+      "Electronics",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00188",
+    "name": "Rohan Gupta",
+    "email": "rohan.gupta188@example.invalid",
+    "phone": "+91-9214078428",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-01-12",
+    "preferred_categories": [
+      "Beauty",
+      "Books",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00189",
+    "name": "Vihaan Nair",
+    "email": "vihaan.nair189@example.invalid",
+    "phone": "+91-9472548832",
+    "city": "Kolkata",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2024-03-05",
+    "preferred_categories": [
+      "Accessories",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00190",
+    "name": "Nisha Chopra",
+    "email": "nisha.chopra190@example.invalid",
+    "phone": "+91-9398976539",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-08-04",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Beauty",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00191",
+    "name": "Neil Desai",
+    "email": "neil.desai191@example.invalid",
+    "phone": "+91-9752211856",
+    "city": "Pune",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-04-30",
+    "preferred_categories": [
+      "Electronics",
+      "Books",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00192",
+    "name": "Anaya Iyer",
+    "email": "anaya.iyer192@example.invalid",
+    "phone": "+91-9113048261",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-05-18",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00193",
+    "name": "Karan Malhotra",
+    "email": "karan.malhotra193@example.invalid",
+    "phone": "+91-9819663267",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-04-24",
+    "preferred_categories": [
+      "Beauty",
+      "Accessories",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00194",
+    "name": "Maya Iyer",
+    "email": "maya.iyer194@example.invalid",
+    "phone": "+91-9875528525",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-07-03",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00195",
+    "name": "Neil Nair",
+    "email": "neil.nair195@example.invalid",
+    "phone": "+91-9704427909",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-07-11",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00196",
+    "name": "Diya Nair",
+    "email": "diya.nair196@example.invalid",
+    "phone": "+91-9763254782",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-05-13",
+    "preferred_categories": [
+      "Grocery",
+      "Books",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00197",
+    "name": "Anaya Malhotra",
+    "email": "anaya.malhotra197@example.invalid",
+    "phone": "+91-9545748929",
+    "city": "Bengaluru",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-03-08",
+    "preferred_categories": [
+      "Electronics",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00198",
+    "name": "Meera Gupta",
+    "email": "meera.gupta198@example.invalid",
+    "phone": "+91-9101751868",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-01-21",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00199",
+    "name": "Karan Verma",
+    "email": "karan.verma199@example.invalid",
+    "phone": "+91-9669433320",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-12-22",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00200",
+    "name": "Rohan Bose",
+    "email": "rohan.bose200@example.invalid",
+    "phone": "+91-9357288556",
+    "city": "Pune",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2023-03-31",
+    "preferred_categories": [
+      "Beauty",
+      "Electronics",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00201",
+    "name": "Anaya Verma",
+    "email": "anaya.verma201@example.invalid",
+    "phone": "+91-9865897204",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-12-24",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00202",
+    "name": "Ira Verma",
+    "email": "ira.verma202@example.invalid",
+    "phone": "+91-9313616300",
+    "city": "Kolkata",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-06-03",
+    "preferred_categories": [
+      "Beauty",
+      "Accessories",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00203",
+    "name": "Riya Gupta",
+    "email": "riya.gupta203@example.invalid",
+    "phone": "+91-9860063192",
+    "city": "Hyderabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-10-24",
+    "preferred_categories": [
+      "Beauty",
+      "Grocery",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00204",
+    "name": "Rohan Rao",
+    "email": "rohan.rao204@example.invalid",
+    "phone": "+91-9653178420",
+    "city": "Mumbai",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-03-04",
+    "preferred_categories": [
+      "Accessories",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00205",
+    "name": "Maya Chopra",
+    "email": "maya.chopra205@example.invalid",
+    "phone": "+91-9801574774",
+    "city": "Hyderabad",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-09-11",
+    "preferred_categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00206",
+    "name": "Meera Kulkarni",
+    "email": "meera.kulkarni206@example.invalid",
+    "phone": "+91-9882881744",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-01-29",
+    "preferred_categories": [
+      "Books",
+      "Fashion",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00207",
+    "name": "Dev Joshi",
+    "email": "dev.joshi207@example.invalid",
+    "phone": "+91-9876569529",
+    "city": "Hyderabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-11-21",
+    "preferred_categories": [
+      "Books",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00208",
+    "name": "Aanya Gupta",
+    "email": "aanya.gupta208@example.invalid",
+    "phone": "+91-9568674780",
+    "city": "Pune",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-06-29",
+    "preferred_categories": [
+      "Books",
+      "Fashion",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00209",
+    "name": "Sara Malhotra",
+    "email": "sara.malhotra209@example.invalid",
+    "phone": "+91-9211617656",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-12-24",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00210",
+    "name": "Dev Rao",
+    "email": "dev.rao210@example.invalid",
+    "phone": "+91-9685713018",
+    "city": "Delhi",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-02-13",
+    "preferred_categories": [
+      "Grocery",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00211",
+    "name": "Maya Sharma",
+    "email": "maya.sharma211@example.invalid",
+    "phone": "+91-9493099076",
+    "city": "Bengaluru",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-09-22",
+    "preferred_categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00212",
+    "name": "Arjun Sharma",
+    "email": "arjun.sharma212@example.invalid",
+    "phone": "+91-9392978303",
+    "city": "Hyderabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-09-29",
+    "preferred_categories": [
+      "Sports",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00213",
+    "name": "Meera Sinha",
+    "email": "meera.sinha213@example.invalid",
+    "phone": "+91-9648172237",
+    "city": "Mumbai",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2023-03-10",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Beauty",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00214",
+    "name": "Riya Gupta",
+    "email": "riya.gupta214@example.invalid",
+    "phone": "+91-9480918615",
+    "city": "Delhi",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-03-31",
+    "preferred_categories": [
+      "Accessories",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00215",
+    "name": "Aditya Chopra",
+    "email": "aditya.chopra215@example.invalid",
+    "phone": "+91-9204435737",
+    "city": "Pune",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-10-22",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00216",
+    "name": "Maya Iyer",
+    "email": "maya.iyer216@example.invalid",
+    "phone": "+91-9751040043",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-10-04",
+    "preferred_categories": [
+      "Sports",
+      "Fashion",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00217",
+    "name": "Sara Sinha",
+    "email": "sara.sinha217@example.invalid",
+    "phone": "+91-9708650442",
+    "city": "Jaipur",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-10-20",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00218",
+    "name": "Vihaan Desai",
+    "email": "vihaan.desai218@example.invalid",
+    "phone": "+91-9306978578",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-07-20",
+    "preferred_categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00219",
+    "name": "Tara Rao",
+    "email": "tara.rao219@example.invalid",
+    "phone": "+91-9609123304",
+    "city": "Bengaluru",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-06-18",
+    "preferred_categories": [
+      "Beauty",
+      "Books",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00220",
+    "name": "Riya Sinha",
+    "email": "riya.sinha220@example.invalid",
+    "phone": "+91-9496929963",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-07-16",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00221",
+    "name": "Kabir Bose",
+    "email": "kabir.bose221@example.invalid",
+    "phone": "+91-9843287909",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-12-18",
+    "preferred_categories": [
+      "Grocery",
+      "Books",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00222",
+    "name": "Rohan Bose",
+    "email": "rohan.bose222@example.invalid",
+    "phone": "+91-9207470564",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-03-10",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00223",
+    "name": "Vihaan Nair",
+    "email": "vihaan.nair223@example.invalid",
+    "phone": "+91-9767257757",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2023-01-26",
+    "preferred_categories": [
+      "Books",
+      "Electronics",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00224",
+    "name": "Rohan Joshi",
+    "email": "rohan.joshi224@example.invalid",
+    "phone": "+91-9567035150",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-08-26",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00225",
+    "name": "Vikram Bose",
+    "email": "vikram.bose225@example.invalid",
+    "phone": "+91-9325460111",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-09-02",
+    "preferred_categories": [
+      "Sports",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00226",
+    "name": "Sara Sinha",
+    "email": "sara.sinha226@example.invalid",
+    "phone": "+91-9440404406",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-02-17",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00227",
+    "name": "Maya Desai",
+    "email": "maya.desai227@example.invalid",
+    "phone": "+91-9882827900",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2023-05-30",
+    "preferred_categories": [
+      "Beauty",
+      "Fashion",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00228",
+    "name": "Sara Chopra",
+    "email": "sara.chopra228@example.invalid",
+    "phone": "+91-9355324861",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-07-16",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00229",
+    "name": "Aarav Rao",
+    "email": "aarav.rao229@example.invalid",
+    "phone": "+91-9302836642",
+    "city": "Bengaluru",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-10-20",
+    "preferred_categories": [
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00230",
+    "name": "Arjun Desai",
+    "email": "arjun.desai230@example.invalid",
+    "phone": "+91-9228005474",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-08-19",
+    "preferred_categories": [
+      "Grocery",
+      "Electronics",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00231",
+    "name": "Rohan Gupta",
+    "email": "rohan.gupta231@example.invalid",
+    "phone": "+91-9342933275",
+    "city": "Jaipur",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-12-24",
+    "preferred_categories": [
+      "Books",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00232",
+    "name": "Aditya Verma",
+    "email": "aditya.verma232@example.invalid",
+    "phone": "+91-9854259654",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-06-22",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00233",
+    "name": "Karan Gupta",
+    "email": "karan.gupta233@example.invalid",
+    "phone": "+91-9167556848",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-03-21",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00234",
+    "name": "Nisha Malhotra",
+    "email": "nisha.malhotra234@example.invalid",
+    "phone": "+91-9318284981",
+    "city": "Jaipur",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-08-22",
+    "preferred_categories": [
+      "Books",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00235",
+    "name": "Neil Sinha",
+    "email": "neil.sinha235@example.invalid",
+    "phone": "+91-9743233843",
+    "city": "Hyderabad",
+    "loyalty_tier": "Gold",
+    "signup_date": "2023-01-19",
+    "preferred_categories": [
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00236",
+    "name": "Tara Sharma",
+    "email": "tara.sharma236@example.invalid",
+    "phone": "+91-9749093086",
+    "city": "Kolkata",
+    "loyalty_tier": "Gold",
+    "signup_date": "2023-10-28",
+    "preferred_categories": [
+      "Electronics",
+      "Fashion",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00237",
+    "name": "Sara Sinha",
+    "email": "sara.sinha237@example.invalid",
+    "phone": "+91-9660044873",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-11-29",
+    "preferred_categories": [
+      "Beauty",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00238",
+    "name": "Ira Kapoor",
+    "email": "ira.kapoor238@example.invalid",
+    "phone": "+91-9495855473",
+    "city": "Pune",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-07-22",
+    "preferred_categories": [
+      "Books",
+      "Sports",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00239",
+    "name": "Sara Joshi",
+    "email": "sara.joshi239@example.invalid",
+    "phone": "+91-9723630369",
+    "city": "Kolkata",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-07-26",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00240",
+    "name": "Arjun Gupta",
+    "email": "arjun.gupta240@example.invalid",
+    "phone": "+91-9735505569",
+    "city": "Hyderabad",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-10-29",
+    "preferred_categories": [
+      "Grocery",
+      "Books",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00241",
+    "name": "Aanya Bose",
+    "email": "aanya.bose241@example.invalid",
+    "phone": "+91-9644609995",
+    "city": "Jaipur",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-05-07",
+    "preferred_categories": [
+      "Sports",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00242",
+    "name": "Kabir Bose",
+    "email": "kabir.bose242@example.invalid",
+    "phone": "+91-9453496817",
+    "city": "Jaipur",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-10-15",
+    "preferred_categories": [
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00243",
+    "name": "Maya Desai",
+    "email": "maya.desai243@example.invalid",
+    "phone": "+91-9306462834",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-11-08",
+    "preferred_categories": [
+      "Books",
+      "Grocery",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00244",
+    "name": "Anaya Kulkarni",
+    "email": "anaya.kulkarni244@example.invalid",
+    "phone": "+91-9456135338",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-05-20",
+    "preferred_categories": [
+      "Beauty",
+      "Home & Kitchen",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00245",
+    "name": "Maya Rao",
+    "email": "maya.rao245@example.invalid",
+    "phone": "+91-9728466794",
+    "city": "Pune",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-06-06",
+    "preferred_categories": [
+      "Sports",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00246",
+    "name": "Rohan Verma",
+    "email": "rohan.verma246@example.invalid",
+    "phone": "+91-9687635754",
+    "city": "Mumbai",
+    "loyalty_tier": "Gold",
+    "signup_date": "2023-11-27",
+    "preferred_categories": [
+      "Accessories",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00247",
+    "name": "Ira Gupta",
+    "email": "ira.gupta247@example.invalid",
+    "phone": "+91-9844197888",
+    "city": "Kolkata",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-01-11",
+    "preferred_categories": [
+      "Books",
+      "Fashion",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00248",
+    "name": "Kabir Rao",
+    "email": "kabir.rao248@example.invalid",
+    "phone": "+91-9945194221",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-12-21",
+    "preferred_categories": [
+      "Beauty",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00249",
+    "name": "Kabir Joshi",
+    "email": "kabir.joshi249@example.invalid",
+    "phone": "+91-9392056978",
+    "city": "Pune",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-12-13",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00250",
+    "name": "Meera Nair",
+    "email": "meera.nair250@example.invalid",
+    "phone": "+91-9915839217",
+    "city": "Jaipur",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-05-10",
+    "preferred_categories": [
+      "Sports",
+      "Accessories",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00251",
+    "name": "Anaya Kapoor",
+    "email": "anaya.kapoor251@example.invalid",
+    "phone": "+91-9256643945",
+    "city": "Bengaluru",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-09-22",
+    "preferred_categories": [
+      "Sports",
+      "Home & Kitchen",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00252",
+    "name": "Maya Joshi",
+    "email": "maya.joshi252@example.invalid",
+    "phone": "+91-9808175226",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-05-26",
+    "preferred_categories": [
+      "Books",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00253",
+    "name": "Ira Gupta",
+    "email": "ira.gupta253@example.invalid",
+    "phone": "+91-9220438808",
+    "city": "Bengaluru",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-03-07",
+    "preferred_categories": [
+      "Grocery",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00254",
+    "name": "Neil Rao",
+    "email": "neil.rao254@example.invalid",
+    "phone": "+91-9977738020",
+    "city": "Bengaluru",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-12-08",
+    "preferred_categories": [
+      "Grocery",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00255",
+    "name": "Dev Sharma",
+    "email": "dev.sharma255@example.invalid",
+    "phone": "+91-9277375909",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-10-11",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00256",
+    "name": "Dev Bose",
+    "email": "dev.bose256@example.invalid",
+    "phone": "+91-9323944215",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-08-25",
+    "preferred_categories": [
+      "Electronics",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00257",
+    "name": "Anaya Verma",
+    "email": "anaya.verma257@example.invalid",
+    "phone": "+91-9810033711",
+    "city": "Hyderabad",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-10-07",
+    "preferred_categories": [
+      "Books",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00258",
+    "name": "Rohan Bose",
+    "email": "rohan.bose258@example.invalid",
+    "phone": "+91-9340298676",
+    "city": "Jaipur",
+    "loyalty_tier": "Gold",
+    "signup_date": "2023-06-06",
+    "preferred_categories": [
+      "Beauty",
+      "Fashion",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00259",
+    "name": "Maya Chopra",
+    "email": "maya.chopra259@example.invalid",
+    "phone": "+91-9564591629",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-04-18",
+    "preferred_categories": [
+      "Sports",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00260",
+    "name": "Kabir Mehta",
+    "email": "kabir.mehta260@example.invalid",
+    "phone": "+91-9672203969",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-12-31",
+    "preferred_categories": [
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00261",
+    "name": "Vihaan Nair",
+    "email": "vihaan.nair261@example.invalid",
+    "phone": "+91-9293751386",
+    "city": "Kolkata",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-02-14",
+    "preferred_categories": [
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00262",
+    "name": "Rohan Rao",
+    "email": "rohan.rao262@example.invalid",
+    "phone": "+91-9567382207",
+    "city": "Pune",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-07-29",
+    "preferred_categories": [
+      "Fashion",
+      "Home & Kitchen",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00263",
+    "name": "Aanya Desai",
+    "email": "aanya.desai263@example.invalid",
+    "phone": "+91-9957611966",
+    "city": "Mumbai",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-05-24",
+    "preferred_categories": [
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00264",
+    "name": "Neil Bose",
+    "email": "neil.bose264@example.invalid",
+    "phone": "+91-9555672904",
+    "city": "Pune",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-06-02",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00265",
+    "name": "Aanya Rao",
+    "email": "aanya.rao265@example.invalid",
+    "phone": "+91-9787883122",
+    "city": "Pune",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-01-02",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00266",
+    "name": "Diya Chopra",
+    "email": "diya.chopra266@example.invalid",
+    "phone": "+91-9566616915",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-12-02",
+    "preferred_categories": [
+      "Fashion",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00267",
+    "name": "Ira Desai",
+    "email": "ira.desai267@example.invalid",
+    "phone": "+91-9482146992",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-10-18",
+    "preferred_categories": [
+      "Fashion",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00268",
+    "name": "Sara Nair",
+    "email": "sara.nair268@example.invalid",
+    "phone": "+91-9208444681",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-06-25",
+    "preferred_categories": [
+      "Books",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00269",
+    "name": "Anaya Kulkarni",
+    "email": "anaya.kulkarni269@example.invalid",
+    "phone": "+91-9752559937",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-08-04",
+    "preferred_categories": [
+      "Fashion",
+      "Grocery",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00270",
+    "name": "Aanya Verma",
+    "email": "aanya.verma270@example.invalid",
+    "phone": "+91-9212820193",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-05-13",
+    "preferred_categories": [
+      "Accessories",
+      "Electronics",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00271",
+    "name": "Kabir Mehta",
+    "email": "kabir.mehta271@example.invalid",
+    "phone": "+91-9226144513",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-03-04",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00272",
+    "name": "Kabir Desai",
+    "email": "kabir.desai272@example.invalid",
+    "phone": "+91-9996893763",
+    "city": "Indore",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2025-03-02",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00273",
+    "name": "Maya Sinha",
+    "email": "maya.sinha273@example.invalid",
+    "phone": "+91-9612877744",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-12-31",
+    "preferred_categories": [
+      "Books",
+      "Home & Kitchen",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00274",
+    "name": "Nisha Joshi",
+    "email": "nisha.joshi274@example.invalid",
+    "phone": "+91-9839424242",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-04-23",
+    "preferred_categories": [
+      "Accessories",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00275",
+    "name": "Tara Joshi",
+    "email": "tara.joshi275@example.invalid",
+    "phone": "+91-9736119386",
+    "city": "Chennai",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-02-05",
+    "preferred_categories": [
+      "Electronics",
+      "Beauty",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00276",
+    "name": "Vihaan Nair",
+    "email": "vihaan.nair276@example.invalid",
+    "phone": "+91-9535588362",
+    "city": "Bengaluru",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-12-26",
+    "preferred_categories": [
+      "Sports",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00277",
+    "name": "Aanya Malhotra",
+    "email": "aanya.malhotra277@example.invalid",
+    "phone": "+91-9298701874",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-08-30",
+    "preferred_categories": [
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00278",
+    "name": "Vikram Kapoor",
+    "email": "vikram.kapoor278@example.invalid",
+    "phone": "+91-9284257796",
+    "city": "Jaipur",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-01-02",
+    "preferred_categories": [
+      "Accessories",
+      "Books",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00279",
+    "name": "Maya Kapoor",
+    "email": "maya.kapoor279@example.invalid",
+    "phone": "+91-9422979453",
+    "city": "Jaipur",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-03-04",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00280",
+    "name": "Nisha Chopra",
+    "email": "nisha.chopra280@example.invalid",
+    "phone": "+91-9509926413",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-01-18",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00281",
+    "name": "Anaya Bose",
+    "email": "anaya.bose281@example.invalid",
+    "phone": "+91-9160495249",
+    "city": "Pune",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2023-12-20",
+    "preferred_categories": [
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00282",
+    "name": "Aarav Iyer",
+    "email": "aarav.iyer282@example.invalid",
+    "phone": "+91-9312900733",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-05-05",
+    "preferred_categories": [
+      "Beauty",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00283",
+    "name": "Vihaan Patel",
+    "email": "vihaan.patel283@example.invalid",
+    "phone": "+91-9422973015",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-02-13",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00284",
+    "name": "Kabir Patel",
+    "email": "kabir.patel284@example.invalid",
+    "phone": "+91-9543421406",
+    "city": "Kolkata",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-06-10",
+    "preferred_categories": [
+      "Sports",
+      "Beauty",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00285",
+    "name": "Aanya Rao",
+    "email": "aanya.rao285@example.invalid",
+    "phone": "+91-9708710292",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-10-30",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00286",
+    "name": "Meera Verma",
+    "email": "meera.verma286@example.invalid",
+    "phone": "+91-9875590576",
+    "city": "Indore",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-02-04",
+    "preferred_categories": [
+      "Grocery",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00287",
+    "name": "Karan Sinha",
+    "email": "karan.sinha287@example.invalid",
+    "phone": "+91-9774815611",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-05-14",
+    "preferred_categories": [
+      "Fashion",
+      "Accessories",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00288",
+    "name": "Maya Kulkarni",
+    "email": "maya.kulkarni288@example.invalid",
+    "phone": "+91-9615744510",
+    "city": "Bengaluru",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-04-13",
+    "preferred_categories": [
+      "Accessories",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00289",
+    "name": "Aanya Sharma",
+    "email": "aanya.sharma289@example.invalid",
+    "phone": "+91-9376630770",
+    "city": "Delhi",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-05-13",
+    "preferred_categories": [
+      "Sports",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00290",
+    "name": "Tara Desai",
+    "email": "tara.desai290@example.invalid",
+    "phone": "+91-9136412638",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-01-16",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00291",
+    "name": "Riya Chopra",
+    "email": "riya.chopra291@example.invalid",
+    "phone": "+91-9758802853",
+    "city": "Kolkata",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2025-02-28",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00292",
+    "name": "Karan Desai",
+    "email": "karan.desai292@example.invalid",
+    "phone": "+91-9394710268",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-02-23",
+    "preferred_categories": [
+      "Sports",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00293",
+    "name": "Anaya Rao",
+    "email": "anaya.rao293@example.invalid",
+    "phone": "+91-9436417534",
+    "city": "Kolkata",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-05-28",
+    "preferred_categories": [
+      "Fashion",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00294",
+    "name": "Kabir Bose",
+    "email": "kabir.bose294@example.invalid",
+    "phone": "+91-9808241806",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-12-20",
+    "preferred_categories": [
+      "Accessories",
+      "Sports",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00295",
+    "name": "Meera Iyer",
+    "email": "meera.iyer295@example.invalid",
+    "phone": "+91-9310965261",
+    "city": "Bengaluru",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-12-18",
+    "preferred_categories": [
+      "Grocery",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00296",
+    "name": "Vikram Gupta",
+    "email": "vikram.gupta296@example.invalid",
+    "phone": "+91-9495750821",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-03-25",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00297",
+    "name": "Aditya Sharma",
+    "email": "aditya.sharma297@example.invalid",
+    "phone": "+91-9459033101",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-11-06",
+    "preferred_categories": [
+      "Sports",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00298",
+    "name": "Rohan Sinha",
+    "email": "rohan.sinha298@example.invalid",
+    "phone": "+91-9588855642",
+    "city": "Jaipur",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-10-08",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00299",
+    "name": "Ira Desai",
+    "email": "ira.desai299@example.invalid",
+    "phone": "+91-9180062368",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-12-01",
+    "preferred_categories": [
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00300",
+    "name": "Vihaan Chopra",
+    "email": "vihaan.chopra300@example.invalid",
+    "phone": "+91-9961233131",
+    "city": "Indore",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-10-05",
+    "preferred_categories": [
+      "Beauty",
+      "Electronics",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00301",
+    "name": "Aanya Bose",
+    "email": "aanya.bose301@example.invalid",
+    "phone": "+91-9172765274",
+    "city": "Mumbai",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-10-09",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00302",
+    "name": "Tara Chopra",
+    "email": "tara.chopra302@example.invalid",
+    "phone": "+91-9435006572",
+    "city": "Pune",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-01-21",
+    "preferred_categories": [
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00303",
+    "name": "Sara Chopra",
+    "email": "sara.chopra303@example.invalid",
+    "phone": "+91-9884168646",
+    "city": "Mumbai",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-12-10",
+    "preferred_categories": [
+      "Grocery",
+      "Beauty",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00304",
+    "name": "Aanya Verma",
+    "email": "aanya.verma304@example.invalid",
+    "phone": "+91-9145270227",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-02-13",
+    "preferred_categories": [
+      "Electronics",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00305",
+    "name": "Ira Kulkarni",
+    "email": "ira.kulkarni305@example.invalid",
+    "phone": "+91-9934259990",
+    "city": "Jaipur",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-08-11",
+    "preferred_categories": [
+      "Electronics",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00306",
+    "name": "Maya Chopra",
+    "email": "maya.chopra306@example.invalid",
+    "phone": "+91-9212626986",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-12-08",
+    "preferred_categories": [
+      "Beauty",
+      "Home & Kitchen",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00307",
+    "name": "Vikram Joshi",
+    "email": "vikram.joshi307@example.invalid",
+    "phone": "+91-9929964013",
+    "city": "Mumbai",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-05-02",
+    "preferred_categories": [
+      "Electronics",
+      "Accessories",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00308",
+    "name": "Vikram Verma",
+    "email": "vikram.verma308@example.invalid",
+    "phone": "+91-9831567291",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-12-12",
+    "preferred_categories": [
+      "Grocery",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00309",
+    "name": "Diya Rao",
+    "email": "diya.rao309@example.invalid",
+    "phone": "+91-9478805138",
+    "city": "Hyderabad",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-08-05",
+    "preferred_categories": [
+      "Books",
+      "Sports",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00310",
+    "name": "Dev Chopra",
+    "email": "dev.chopra310@example.invalid",
+    "phone": "+91-9396931759",
+    "city": "Hyderabad",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-05-07",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00311",
+    "name": "Meera Nair",
+    "email": "meera.nair311@example.invalid",
+    "phone": "+91-9737415362",
+    "city": "Bengaluru",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-10-23",
+    "preferred_categories": [
+      "Fashion",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00312",
+    "name": "Sara Gupta",
+    "email": "sara.gupta312@example.invalid",
+    "phone": "+91-9150342584",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-12-02",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00313",
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma313@example.invalid",
+    "phone": "+91-9968207024",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-11-18",
+    "preferred_categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00314",
+    "name": "Diya Kapoor",
+    "email": "diya.kapoor314@example.invalid",
+    "phone": "+91-9640889653",
+    "city": "Chennai",
+    "loyalty_tier": "Gold",
+    "signup_date": "2023-07-01",
+    "preferred_categories": [
+      "Grocery",
+      "Home & Kitchen",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00315",
+    "name": "Diya Malhotra",
+    "email": "diya.malhotra315@example.invalid",
+    "phone": "+91-9436635459",
+    "city": "Kolkata",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-03-28",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00316",
+    "name": "Nisha Mehta",
+    "email": "nisha.mehta316@example.invalid",
+    "phone": "+91-9488697785",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-12-16",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00317",
+    "name": "Nisha Desai",
+    "email": "nisha.desai317@example.invalid",
+    "phone": "+91-9116040937",
+    "city": "Pune",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-07-16",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00318",
+    "name": "Ira Iyer",
+    "email": "ira.iyer318@example.invalid",
+    "phone": "+91-9564652972",
+    "city": "Kolkata",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-05-09",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Books",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00319",
+    "name": "Karan Patel",
+    "email": "karan.patel319@example.invalid",
+    "phone": "+91-9419572901",
+    "city": "Bengaluru",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-10-01",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00320",
+    "name": "Vikram Joshi",
+    "email": "vikram.joshi320@example.invalid",
+    "phone": "+91-9201812094",
+    "city": "Delhi",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-06-21",
+    "preferred_categories": [
+      "Grocery",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00321",
+    "name": "Tara Kapoor",
+    "email": "tara.kapoor321@example.invalid",
+    "phone": "+91-9194437802",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-10-25",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00322",
+    "name": "Neil Gupta",
+    "email": "neil.gupta322@example.invalid",
+    "phone": "+91-9533324545",
+    "city": "Chennai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-07-03",
+    "preferred_categories": [
+      "Sports",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00323",
+    "name": "Aditya Mehta",
+    "email": "aditya.mehta323@example.invalid",
+    "phone": "+91-9510756541",
+    "city": "Delhi",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-09-23",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00324",
+    "name": "Anaya Mehta",
+    "email": "anaya.mehta324@example.invalid",
+    "phone": "+91-9489126098",
+    "city": "Pune",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2025-03-03",
+    "preferred_categories": [
+      "Electronics",
+      "Beauty",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00325",
+    "name": "Tara Sharma",
+    "email": "tara.sharma325@example.invalid",
+    "phone": "+91-9108097416",
+    "city": "Delhi",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-05-27",
+    "preferred_categories": [
+      "Accessories",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00326",
+    "name": "Sara Malhotra",
+    "email": "sara.malhotra326@example.invalid",
+    "phone": "+91-9603776791",
+    "city": "Pune",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-02-25",
+    "preferred_categories": [
+      "Fashion",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00327",
+    "name": "Rohan Malhotra",
+    "email": "rohan.malhotra327@example.invalid",
+    "phone": "+91-9158266120",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-09-03",
+    "preferred_categories": [
+      "Fashion",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00328",
+    "name": "Karan Kapoor",
+    "email": "karan.kapoor328@example.invalid",
+    "phone": "+91-9738558409",
+    "city": "Hyderabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-08-24",
+    "preferred_categories": [
+      "Grocery",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00329",
+    "name": "Aditya Kulkarni",
+    "email": "aditya.kulkarni329@example.invalid",
+    "phone": "+91-9177137857",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-01-14",
+    "preferred_categories": [
+      "Fashion",
+      "Beauty",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00330",
+    "name": "Vihaan Patel",
+    "email": "vihaan.patel330@example.invalid",
+    "phone": "+91-9793703730",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-01-06",
+    "preferred_categories": [
+      "Electronics",
+      "Books",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00331",
+    "name": "Vihaan Nair",
+    "email": "vihaan.nair331@example.invalid",
+    "phone": "+91-9235105840",
+    "city": "Hyderabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-06-29",
+    "preferred_categories": [
+      "Accessories",
+      "Books",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00332",
+    "name": "Tara Kapoor",
+    "email": "tara.kapoor332@example.invalid",
+    "phone": "+91-9680194933",
+    "city": "Bengaluru",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-03-14",
+    "preferred_categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00333",
+    "name": "Dev Gupta",
+    "email": "dev.gupta333@example.invalid",
+    "phone": "+91-9974270728",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-01-10",
+    "preferred_categories": [
+      "Accessories",
+      "Fashion",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00334",
+    "name": "Diya Rao",
+    "email": "diya.rao334@example.invalid",
+    "phone": "+91-9345868845",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-03-18",
+    "preferred_categories": [
+      "Fashion",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00335",
+    "name": "Sara Patel",
+    "email": "sara.patel335@example.invalid",
+    "phone": "+91-9564420224",
+    "city": "Chennai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-07-10",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Beauty",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00336",
+    "name": "Kabir Joshi",
+    "email": "kabir.joshi336@example.invalid",
+    "phone": "+91-9121458901",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-10-23",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00337",
+    "name": "Maya Joshi",
+    "email": "maya.joshi337@example.invalid",
+    "phone": "+91-9210387467",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-12-01",
+    "preferred_categories": [
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00338",
+    "name": "Kabir Malhotra",
+    "email": "kabir.malhotra338@example.invalid",
+    "phone": "+91-9760706126",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-03-01",
+    "preferred_categories": [
+      "Fashion",
+      "Sports",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00339",
+    "name": "Arjun Sinha",
+    "email": "arjun.sinha339@example.invalid",
+    "phone": "+91-9629045497",
+    "city": "Chennai",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2024-04-03",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00340",
+    "name": "Aarav Joshi",
+    "email": "aarav.joshi340@example.invalid",
+    "phone": "+91-9504640382",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-12-24",
+    "preferred_categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00341",
+    "name": "Aanya Kapoor",
+    "email": "aanya.kapoor341@example.invalid",
+    "phone": "+91-9673155543",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-10-05",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00342",
+    "name": "Rohan Nair",
+    "email": "rohan.nair342@example.invalid",
+    "phone": "+91-9328707748",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-02-01",
+    "preferred_categories": [
+      "Grocery",
+      "Sports",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00343",
+    "name": "Meera Chopra",
+    "email": "meera.chopra343@example.invalid",
+    "phone": "+91-9634505883",
+    "city": "Delhi",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-12-27",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00344",
+    "name": "Neil Desai",
+    "email": "neil.desai344@example.invalid",
+    "phone": "+91-9216745967",
+    "city": "Mumbai",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-01-02",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00345",
+    "name": "Aditya Mehta",
+    "email": "aditya.mehta345@example.invalid",
+    "phone": "+91-9449628053",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-11-18",
+    "preferred_categories": [
+      "Electronics",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00346",
+    "name": "Anaya Joshi",
+    "email": "anaya.joshi346@example.invalid",
+    "phone": "+91-9644279107",
+    "city": "Delhi",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-04-06",
+    "preferred_categories": [
+      "Beauty",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00347",
+    "name": "Aanya Chopra",
+    "email": "aanya.chopra347@example.invalid",
+    "phone": "+91-9995712800",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-09-14",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Electronics",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00348",
+    "name": "Aanya Verma",
+    "email": "aanya.verma348@example.invalid",
+    "phone": "+91-9960514888",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-11-21",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00349",
+    "name": "Diya Chopra",
+    "email": "diya.chopra349@example.invalid",
+    "phone": "+91-9149639181",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-02-09",
+    "preferred_categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00350",
+    "name": "Neil Chopra",
+    "email": "neil.chopra350@example.invalid",
+    "phone": "+91-9687280691",
+    "city": "Jaipur",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-10-10",
+    "preferred_categories": [
+      "Beauty",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00351",
+    "name": "Nisha Iyer",
+    "email": "nisha.iyer351@example.invalid",
+    "phone": "+91-9952402161",
+    "city": "Hyderabad",
+    "loyalty_tier": "Gold",
+    "signup_date": "2023-04-09",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00352",
+    "name": "Karan Iyer",
+    "email": "karan.iyer352@example.invalid",
+    "phone": "+91-9902778451",
+    "city": "Kolkata",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-02-08",
+    "preferred_categories": [
+      "Grocery",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00353",
+    "name": "Anaya Desai",
+    "email": "anaya.desai353@example.invalid",
+    "phone": "+91-9589065176",
+    "city": "Pune",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-03-09",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00354",
+    "name": "Arjun Chopra",
+    "email": "arjun.chopra354@example.invalid",
+    "phone": "+91-9836857958",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-05-26",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00355",
+    "name": "Arjun Mehta",
+    "email": "arjun.mehta355@example.invalid",
+    "phone": "+91-9908858072",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-02-10",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00356",
+    "name": "Maya Sharma",
+    "email": "maya.sharma356@example.invalid",
+    "phone": "+91-9277747208",
+    "city": "Kolkata",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2023-10-16",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00357",
+    "name": "Arjun Kulkarni",
+    "email": "arjun.kulkarni357@example.invalid",
+    "phone": "+91-9244056665",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-12-02",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00358",
+    "name": "Vihaan Nair",
+    "email": "vihaan.nair358@example.invalid",
+    "phone": "+91-9582381042",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-12-22",
+    "preferred_categories": [
+      "Beauty",
+      "Fashion",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00359",
+    "name": "Arjun Sinha",
+    "email": "arjun.sinha359@example.invalid",
+    "phone": "+91-9439563039",
+    "city": "Bengaluru",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-06-21",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00360",
+    "name": "Karan Sharma",
+    "email": "karan.sharma360@example.invalid",
+    "phone": "+91-9753691388",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-04-19",
+    "preferred_categories": [
+      "Accessories",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00361",
+    "name": "Maya Nair",
+    "email": "maya.nair361@example.invalid",
+    "phone": "+91-9539412757",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-09-17",
+    "preferred_categories": [
+      "Books",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00362",
+    "name": "Meera Mehta",
+    "email": "meera.mehta362@example.invalid",
+    "phone": "+91-9441556911",
+    "city": "Bengaluru",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2024-12-17",
+    "preferred_categories": [
+      "Books",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00363",
+    "name": "Nisha Nair",
+    "email": "nisha.nair363@example.invalid",
+    "phone": "+91-9900867089",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-02-04",
+    "preferred_categories": [
+      "Beauty",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00364",
+    "name": "Dev Verma",
+    "email": "dev.verma364@example.invalid",
+    "phone": "+91-9841679661",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-10-12",
+    "preferred_categories": [
+      "Grocery",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00365",
+    "name": "Diya Iyer",
+    "email": "diya.iyer365@example.invalid",
+    "phone": "+91-9147574583",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-03-04",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00366",
+    "name": "Dev Joshi",
+    "email": "dev.joshi366@example.invalid",
+    "phone": "+91-9665618297",
+    "city": "Bengaluru",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-11-04",
+    "preferred_categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00367",
+    "name": "Kabir Kulkarni",
+    "email": "kabir.kulkarni367@example.invalid",
+    "phone": "+91-9518509274",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-04-04",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00368",
+    "name": "Aanya Chopra",
+    "email": "aanya.chopra368@example.invalid",
+    "phone": "+91-9770384668",
+    "city": "Jaipur",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-03-31",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00369",
+    "name": "Kabir Desai",
+    "email": "kabir.desai369@example.invalid",
+    "phone": "+91-9222057204",
+    "city": "Mumbai",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2024-04-01",
+    "preferred_categories": [
+      "Grocery",
+      "Books",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00370",
+    "name": "Kabir Bose",
+    "email": "kabir.bose370@example.invalid",
+    "phone": "+91-9581587588",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-01-21",
+    "preferred_categories": [
+      "Books",
+      "Fashion",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00371",
+    "name": "Maya Desai",
+    "email": "maya.desai371@example.invalid",
+    "phone": "+91-9367130023",
+    "city": "Hyderabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-02-17",
+    "preferred_categories": [
+      "Electronics",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00372",
+    "name": "Aanya Rao",
+    "email": "aanya.rao372@example.invalid",
+    "phone": "+91-9897190126",
+    "city": "Chennai",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2023-09-07",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00373",
+    "name": "Riya Nair",
+    "email": "riya.nair373@example.invalid",
+    "phone": "+91-9991806378",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-07-01",
+    "preferred_categories": [
+      "Sports",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00374",
+    "name": "Tara Sinha",
+    "email": "tara.sinha374@example.invalid",
+    "phone": "+91-9715523366",
+    "city": "Delhi",
+    "loyalty_tier": "Gold",
+    "signup_date": "2023-06-29",
+    "preferred_categories": [
+      "Beauty",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00375",
+    "name": "Dev Nair",
+    "email": "dev.nair375@example.invalid",
+    "phone": "+91-9414497772",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-06-12",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00376",
+    "name": "Ira Kapoor",
+    "email": "ira.kapoor376@example.invalid",
+    "phone": "+91-9819796397",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-11-17",
+    "preferred_categories": [
+      "Grocery",
+      "Beauty",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00377",
+    "name": "Arjun Joshi",
+    "email": "arjun.joshi377@example.invalid",
+    "phone": "+91-9106763894",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-09-09",
+    "preferred_categories": [
+      "Fashion",
+      "Sports",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00378",
+    "name": "Kabir Bose",
+    "email": "kabir.bose378@example.invalid",
+    "phone": "+91-9965386286",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-01-01",
+    "preferred_categories": [
+      "Fashion",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00379",
+    "name": "Maya Desai",
+    "email": "maya.desai379@example.invalid",
+    "phone": "+91-9278585921",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-06-13",
+    "preferred_categories": [
+      "Accessories",
+      "Sports",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00380",
+    "name": "Aditya Bose",
+    "email": "aditya.bose380@example.invalid",
+    "phone": "+91-9938603691",
+    "city": "Kolkata",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-01-10",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00381",
+    "name": "Dev Patel",
+    "email": "dev.patel381@example.invalid",
+    "phone": "+91-9750083351",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-03-17",
+    "preferred_categories": [
+      "Accessories",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00382",
+    "name": "Nisha Sinha",
+    "email": "nisha.sinha382@example.invalid",
+    "phone": "+91-9119193069",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-07-05",
+    "preferred_categories": [
+      "Books",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00383",
+    "name": "Tara Gupta",
+    "email": "tara.gupta383@example.invalid",
+    "phone": "+91-9875048175",
+    "city": "Jaipur",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-11-29",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00384",
+    "name": "Riya Desai",
+    "email": "riya.desai384@example.invalid",
+    "phone": "+91-9540694909",
+    "city": "Delhi",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-02-06",
+    "preferred_categories": [
+      "Books",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00385",
+    "name": "Riya Desai",
+    "email": "riya.desai385@example.invalid",
+    "phone": "+91-9650775894",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-12-11",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00386",
+    "name": "Anaya Rao",
+    "email": "anaya.rao386@example.invalid",
+    "phone": "+91-9268340394",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-08-03",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00387",
+    "name": "Dev Gupta",
+    "email": "dev.gupta387@example.invalid",
+    "phone": "+91-9151429932",
+    "city": "Pune",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2025-10-27",
+    "preferred_categories": [
+      "Fashion",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00388",
+    "name": "Vikram Malhotra",
+    "email": "vikram.malhotra388@example.invalid",
+    "phone": "+91-9330771855",
+    "city": "Pune",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-02-10",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00389",
+    "name": "Arjun Kapoor",
+    "email": "arjun.kapoor389@example.invalid",
+    "phone": "+91-9836831610",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-12-15",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00390",
+    "name": "Kabir Nair",
+    "email": "kabir.nair390@example.invalid",
+    "phone": "+91-9546765043",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-06-01",
+    "preferred_categories": [
+      "Grocery",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00391",
+    "name": "Aanya Verma",
+    "email": "aanya.verma391@example.invalid",
+    "phone": "+91-9930010000",
+    "city": "Jaipur",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-09-13",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00392",
+    "name": "Aditya Nair",
+    "email": "aditya.nair392@example.invalid",
+    "phone": "+91-9755054878",
+    "city": "Delhi",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-01-30",
+    "preferred_categories": [
+      "Fashion",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00393",
+    "name": "Sara Nair",
+    "email": "sara.nair393@example.invalid",
+    "phone": "+91-9504986608",
+    "city": "Jaipur",
+    "loyalty_tier": "Gold",
+    "signup_date": "2023-10-28",
+    "preferred_categories": [
+      "Beauty",
+      "Home & Kitchen",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00394",
+    "name": "Maya Malhotra",
+    "email": "maya.malhotra394@example.invalid",
+    "phone": "+91-9689462748",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-02-26",
+    "preferred_categories": [
+      "Electronics",
+      "Fashion",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00395",
+    "name": "Riya Malhotra",
+    "email": "riya.malhotra395@example.invalid",
+    "phone": "+91-9948668974",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-10-12",
+    "preferred_categories": [
+      "Electronics",
+      "Books",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00396",
+    "name": "Kabir Bose",
+    "email": "kabir.bose396@example.invalid",
+    "phone": "+91-9783415859",
+    "city": "Hyderabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-08-21",
+    "preferred_categories": [
+      "Electronics",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00397",
+    "name": "Vihaan Kapoor",
+    "email": "vihaan.kapoor397@example.invalid",
+    "phone": "+91-9755308940",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-06-20",
+    "preferred_categories": [
+      "Fashion",
+      "Sports",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00398",
+    "name": "Kabir Bose",
+    "email": "kabir.bose398@example.invalid",
+    "phone": "+91-9650883114",
+    "city": "Jaipur",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-10-15",
+    "preferred_categories": [
+      "Accessories",
+      "Sports",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00399",
+    "name": "Dev Desai",
+    "email": "dev.desai399@example.invalid",
+    "phone": "+91-9984575220",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-01-11",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00400",
+    "name": "Karan Rao",
+    "email": "karan.rao400@example.invalid",
+    "phone": "+91-9567048781",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-07-09",
+    "preferred_categories": [
+      "Books",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00401",
+    "name": "Diya Patel",
+    "email": "diya.patel401@example.invalid",
+    "phone": "+91-9387123205",
+    "city": "Hyderabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-08-08",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00402",
+    "name": "Anaya Patel",
+    "email": "anaya.patel402@example.invalid",
+    "phone": "+91-9504374199",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-11-29",
+    "preferred_categories": [
+      "Sports",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00403",
+    "name": "Aarav Sinha",
+    "email": "aarav.sinha403@example.invalid",
+    "phone": "+91-9100691962",
+    "city": "Delhi",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-03-30",
+    "preferred_categories": [
+      "Sports",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00404",
+    "name": "Maya Verma",
+    "email": "maya.verma404@example.invalid",
+    "phone": "+91-9495926437",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-10-23",
+    "preferred_categories": [
+      "Grocery",
+      "Beauty",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00405",
+    "name": "Aditya Bose",
+    "email": "aditya.bose405@example.invalid",
+    "phone": "+91-9533681538",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-11-01",
+    "preferred_categories": [
+      "Accessories",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00406",
+    "name": "Vihaan Rao",
+    "email": "vihaan.rao406@example.invalid",
+    "phone": "+91-9200022300",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-03-05",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00407",
+    "name": "Sara Kulkarni",
+    "email": "sara.kulkarni407@example.invalid",
+    "phone": "+91-9842608036",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-10-31",
+    "preferred_categories": [
+      "Grocery",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00408",
+    "name": "Anaya Chopra",
+    "email": "anaya.chopra408@example.invalid",
+    "phone": "+91-9727562159",
+    "city": "Chennai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-11-04",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00409",
+    "name": "Tara Rao",
+    "email": "tara.rao409@example.invalid",
+    "phone": "+91-9467781057",
+    "city": "Jaipur",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-11-29",
+    "preferred_categories": [
+      "Electronics",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00410",
+    "name": "Arjun Verma",
+    "email": "arjun.verma410@example.invalid",
+    "phone": "+91-9799867625",
+    "city": "Kolkata",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-01-19",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00411",
+    "name": "Riya Rao",
+    "email": "riya.rao411@example.invalid",
+    "phone": "+91-9102097510",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-10-16",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00412",
+    "name": "Dev Chopra",
+    "email": "dev.chopra412@example.invalid",
+    "phone": "+91-9887283365",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-10-29",
+    "preferred_categories": [
+      "Grocery",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00413",
+    "name": "Vikram Verma",
+    "email": "vikram.verma413@example.invalid",
+    "phone": "+91-9996763525",
+    "city": "Pune",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-09-02",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00414",
+    "name": "Nisha Mehta",
+    "email": "nisha.mehta414@example.invalid",
+    "phone": "+91-9263934823",
+    "city": "Pune",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-04-19",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00415",
+    "name": "Kabir Mehta",
+    "email": "kabir.mehta415@example.invalid",
+    "phone": "+91-9762703060",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-07-21",
+    "preferred_categories": [
+      "Accessories",
+      "Electronics",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00416",
+    "name": "Karan Kapoor",
+    "email": "karan.kapoor416@example.invalid",
+    "phone": "+91-9840187677",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-03-12",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00417",
+    "name": "Riya Chopra",
+    "email": "riya.chopra417@example.invalid",
+    "phone": "+91-9791472076",
+    "city": "Jaipur",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-06-19",
+    "preferred_categories": [
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00418",
+    "name": "Rohan Iyer",
+    "email": "rohan.iyer418@example.invalid",
+    "phone": "+91-9507304173",
+    "city": "Delhi",
+    "loyalty_tier": "Gold",
+    "signup_date": "2023-11-13",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00419",
+    "name": "Vikram Bose",
+    "email": "vikram.bose419@example.invalid",
+    "phone": "+91-9689626557",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-12-30",
+    "preferred_categories": [
+      "Grocery",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00420",
+    "name": "Aarav Malhotra",
+    "email": "aarav.malhotra420@example.invalid",
+    "phone": "+91-9219013509",
+    "city": "Bengaluru",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-11-12",
+    "preferred_categories": [
+      "Electronics",
+      "Accessories",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00421",
+    "name": "Ira Kapoor",
+    "email": "ira.kapoor421@example.invalid",
+    "phone": "+91-9696762636",
+    "city": "Delhi",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-04-27",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00422",
+    "name": "Anaya Sinha",
+    "email": "anaya.sinha422@example.invalid",
+    "phone": "+91-9551535519",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-10-23",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00423",
+    "name": "Diya Chopra",
+    "email": "diya.chopra423@example.invalid",
+    "phone": "+91-9599213901",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-12-09",
+    "preferred_categories": [
+      "Books",
+      "Sports",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00424",
+    "name": "Ira Sinha",
+    "email": "ira.sinha424@example.invalid",
+    "phone": "+91-9498462761",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-04-10",
+    "preferred_categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00425",
+    "name": "Sara Kapoor",
+    "email": "sara.kapoor425@example.invalid",
+    "phone": "+91-9533414200",
+    "city": "Pune",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-03-25",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00426",
+    "name": "Vihaan Nair",
+    "email": "vihaan.nair426@example.invalid",
+    "phone": "+91-9942036017",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-06-20",
+    "preferred_categories": [
+      "Books",
+      "Accessories",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00427",
+    "name": "Rohan Chopra",
+    "email": "rohan.chopra427@example.invalid",
+    "phone": "+91-9392035240",
+    "city": "Kolkata",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-07-24",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Beauty",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00428",
+    "name": "Vikram Bose",
+    "email": "vikram.bose428@example.invalid",
+    "phone": "+91-9815083067",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-06-14",
+    "preferred_categories": [
+      "Accessories",
+      "Beauty",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00429",
+    "name": "Meera Desai",
+    "email": "meera.desai429@example.invalid",
+    "phone": "+91-9203622160",
+    "city": "Kolkata",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-01-17",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00430",
+    "name": "Aarav Desai",
+    "email": "aarav.desai430@example.invalid",
+    "phone": "+91-9814758782",
+    "city": "Bengaluru",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-11-03",
+    "preferred_categories": [
+      "Books",
+      "Beauty",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00431",
+    "name": "Meera Desai",
+    "email": "meera.desai431@example.invalid",
+    "phone": "+91-9937304637",
+    "city": "Chennai",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-04-23",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00432",
+    "name": "Vikram Malhotra",
+    "email": "vikram.malhotra432@example.invalid",
+    "phone": "+91-9189825151",
+    "city": "Bengaluru",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-05-05",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00433",
+    "name": "Neil Gupta",
+    "email": "neil.gupta433@example.invalid",
+    "phone": "+91-9221609614",
+    "city": "Bengaluru",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-12-30",
+    "preferred_categories": [
+      "Books",
+      "Beauty",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00434",
+    "name": "Tara Rao",
+    "email": "tara.rao434@example.invalid",
+    "phone": "+91-9697918900",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-07-27",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00435",
+    "name": "Riya Malhotra",
+    "email": "riya.malhotra435@example.invalid",
+    "phone": "+91-9612818559",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-12-23",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00436",
+    "name": "Rohan Patel",
+    "email": "rohan.patel436@example.invalid",
+    "phone": "+91-9552100916",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-10-29",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00437",
+    "name": "Kabir Joshi",
+    "email": "kabir.joshi437@example.invalid",
+    "phone": "+91-9323086854",
+    "city": "Kolkata",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2024-11-20",
+    "preferred_categories": [
+      "Grocery",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00438",
+    "name": "Aditya Iyer",
+    "email": "aditya.iyer438@example.invalid",
+    "phone": "+91-9930411985",
+    "city": "Chennai",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-10-04",
+    "preferred_categories": [
+      "Grocery",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00439",
+    "name": "Vihaan Verma",
+    "email": "vihaan.verma439@example.invalid",
+    "phone": "+91-9502510108",
+    "city": "Hyderabad",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2025-01-08",
+    "preferred_categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00440",
+    "name": "Anaya Kapoor",
+    "email": "anaya.kapoor440@example.invalid",
+    "phone": "+91-9125452046",
+    "city": "Indore",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-09-11",
+    "preferred_categories": [
+      "Fashion",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00441",
+    "name": "Sara Chopra",
+    "email": "sara.chopra441@example.invalid",
+    "phone": "+91-9692437923",
+    "city": "Jaipur",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-12-06",
+    "preferred_categories": [
+      "Sports",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00442",
+    "name": "Karan Sinha",
+    "email": "karan.sinha442@example.invalid",
+    "phone": "+91-9811574322",
+    "city": "Mumbai",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-03-31",
+    "preferred_categories": [
+      "Books",
+      "Sports",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00443",
+    "name": "Meera Verma",
+    "email": "meera.verma443@example.invalid",
+    "phone": "+91-9428797444",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-05-21",
+    "preferred_categories": [
+      "Beauty",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00444",
+    "name": "Diya Bose",
+    "email": "diya.bose444@example.invalid",
+    "phone": "+91-9105368100",
+    "city": "Delhi",
+    "loyalty_tier": "Gold",
+    "signup_date": "2023-07-12",
+    "preferred_categories": [
+      "Books",
+      "Fashion",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00445",
+    "name": "Kabir Mehta",
+    "email": "kabir.mehta445@example.invalid",
+    "phone": "+91-9244570334",
+    "city": "Mumbai",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-09-24",
+    "preferred_categories": [
+      "Fashion",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00446",
+    "name": "Vihaan Nair",
+    "email": "vihaan.nair446@example.invalid",
+    "phone": "+91-9598691277",
+    "city": "Hyderabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-09-05",
+    "preferred_categories": [
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00447",
+    "name": "Aanya Sinha",
+    "email": "aanya.sinha447@example.invalid",
+    "phone": "+91-9792015470",
+    "city": "Bengaluru",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-03-09",
+    "preferred_categories": [
+      "Fashion",
+      "Grocery",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00448",
+    "name": "Karan Chopra",
+    "email": "karan.chopra448@example.invalid",
+    "phone": "+91-9480077950",
+    "city": "Kolkata",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-02-21",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Beauty",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00449",
+    "name": "Meera Rao",
+    "email": "meera.rao449@example.invalid",
+    "phone": "+91-9869115662",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-09-04",
+    "preferred_categories": [
+      "Electronics",
+      "Sports",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00450",
+    "name": "Dev Sharma",
+    "email": "dev.sharma450@example.invalid",
+    "phone": "+91-9734426253",
+    "city": "Pune",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-11-12",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00451",
+    "name": "Aditya Gupta",
+    "email": "aditya.gupta451@example.invalid",
+    "phone": "+91-9889947530",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-01-24",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00452",
+    "name": "Kabir Mehta",
+    "email": "kabir.mehta452@example.invalid",
+    "phone": "+91-9262058600",
+    "city": "Pune",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-07-21",
+    "preferred_categories": [
+      "Accessories",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00453",
+    "name": "Karan Nair",
+    "email": "karan.nair453@example.invalid",
+    "phone": "+91-9665500434",
+    "city": "Pune",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-04-26",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Sports",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00454",
+    "name": "Vikram Kulkarni",
+    "email": "vikram.kulkarni454@example.invalid",
+    "phone": "+91-9488762479",
+    "city": "Chennai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-07-05",
+    "preferred_categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00455",
+    "name": "Maya Joshi",
+    "email": "maya.joshi455@example.invalid",
+    "phone": "+91-9996868001",
+    "city": "Chennai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-01-30",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00456",
+    "name": "Maya Sinha",
+    "email": "maya.sinha456@example.invalid",
+    "phone": "+91-9959232718",
+    "city": "Hyderabad",
+    "loyalty_tier": "Gold",
+    "signup_date": "2024-09-22",
+    "preferred_categories": [
+      "Books",
+      "Grocery",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00457",
+    "name": "Arjun Rao",
+    "email": "arjun.rao457@example.invalid",
+    "phone": "+91-9620798934",
+    "city": "Kolkata",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2025-10-21",
+    "preferred_categories": [
+      "Books",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00458",
+    "name": "Anaya Malhotra",
+    "email": "anaya.malhotra458@example.invalid",
+    "phone": "+91-9997537520",
+    "city": "Jaipur",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-08-21",
+    "preferred_categories": [
+      "Beauty",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00459",
+    "name": "Aditya Bose",
+    "email": "aditya.bose459@example.invalid",
+    "phone": "+91-9578699689",
+    "city": "Delhi",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-11-20",
+    "preferred_categories": [
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00460",
+    "name": "Aarav Mehta",
+    "email": "aarav.mehta460@example.invalid",
+    "phone": "+91-9863640285",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-07-10",
+    "preferred_categories": [
+      "Fashion",
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00461",
+    "name": "Vikram Malhotra",
+    "email": "vikram.malhotra461@example.invalid",
+    "phone": "+91-9164399900",
+    "city": "Hyderabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-07-29",
+    "preferred_categories": [
+      "Beauty",
+      "Electronics",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00462",
+    "name": "Aarav Bose",
+    "email": "aarav.bose462@example.invalid",
+    "phone": "+91-9124953963",
+    "city": "Kolkata",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-04-10",
+    "preferred_categories": [
+      "Books",
+      "Grocery",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00463",
+    "name": "Dev Kapoor",
+    "email": "dev.kapoor463@example.invalid",
+    "phone": "+91-9641373267",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-04-05",
+    "preferred_categories": [
+      "Fashion",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00464",
+    "name": "Aarav Mehta",
+    "email": "aarav.mehta464@example.invalid",
+    "phone": "+91-9836007917",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-03-14",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00465",
+    "name": "Dev Rao",
+    "email": "dev.rao465@example.invalid",
+    "phone": "+91-9126286443",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-05-23",
+    "preferred_categories": [
+      "Fashion",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00466",
+    "name": "Aanya Joshi",
+    "email": "aanya.joshi466@example.invalid",
+    "phone": "+91-9108035817",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-01-18",
+    "preferred_categories": [
+      "Grocery",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00467",
+    "name": "Diya Kulkarni",
+    "email": "diya.kulkarni467@example.invalid",
+    "phone": "+91-9236724126",
+    "city": "Mumbai",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-09-13",
+    "preferred_categories": [
+      "Grocery",
+      "Electronics",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00468",
+    "name": "Aarav Mehta",
+    "email": "aarav.mehta468@example.invalid",
+    "phone": "+91-9988239938",
+    "city": "Mumbai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-05-06",
+    "preferred_categories": [
+      "Sports"
+    ]
+  },
+  {
+    "customer_id": "CUST-00469",
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma469@example.invalid",
+    "phone": "+91-9229147161",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-03-18",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00470",
+    "name": "Diya Kapoor",
+    "email": "diya.kapoor470@example.invalid",
+    "phone": "+91-9346199855",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-05-14",
+    "preferred_categories": [
+      "Grocery",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00471",
+    "name": "Aarav Kulkarni",
+    "email": "aarav.kulkarni471@example.invalid",
+    "phone": "+91-9265268232",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-11-10",
+    "preferred_categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00472",
+    "name": "Nisha Bose",
+    "email": "nisha.bose472@example.invalid",
+    "phone": "+91-9118077799",
+    "city": "Hyderabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-09-28",
+    "preferred_categories": [
+      "Grocery",
+      "Books",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00473",
+    "name": "Neil Nair",
+    "email": "neil.nair473@example.invalid",
+    "phone": "+91-9866860998",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-08-12",
+    "preferred_categories": [
+      "Fashion",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00474",
+    "name": "Rohan Sinha",
+    "email": "rohan.sinha474@example.invalid",
+    "phone": "+91-9604896372",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-06-16",
+    "preferred_categories": [
+      "Accessories",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00475",
+    "name": "Karan Verma",
+    "email": "karan.verma475@example.invalid",
+    "phone": "+91-9305080676",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-05-30",
+    "preferred_categories": [
+      "Sports",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00476",
+    "name": "Tara Desai",
+    "email": "tara.desai476@example.invalid",
+    "phone": "+91-9908215043",
+    "city": "Jaipur",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-12-19",
+    "preferred_categories": [
+      "Beauty",
+      "Home & Kitchen",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00477",
+    "name": "Aanya Sinha",
+    "email": "aanya.sinha477@example.invalid",
+    "phone": "+91-9491472478",
+    "city": "Jaipur",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-03-01",
+    "preferred_categories": [
+      "Electronics",
+      "Fashion",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00478",
+    "name": "Aarav Kapoor",
+    "email": "aarav.kapoor478@example.invalid",
+    "phone": "+91-9227930759",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-08-04",
+    "preferred_categories": [
+      "Sports",
+      "Fashion",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00479",
+    "name": "Neil Bose",
+    "email": "neil.bose479@example.invalid",
+    "phone": "+91-9839209000",
+    "city": "Hyderabad",
+    "loyalty_tier": "Platinum",
+    "signup_date": "2025-06-16",
+    "preferred_categories": [
+      "Sports",
+      "Grocery",
+      "Home & Kitchen"
+    ]
+  },
+  {
+    "customer_id": "CUST-00480",
+    "name": "Vihaan Desai",
+    "email": "vihaan.desai480@example.invalid",
+    "phone": "+91-9688613018",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-03-12",
+    "preferred_categories": [
+      "Beauty",
+      "Books",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00481",
+    "name": "Riya Bose",
+    "email": "riya.bose481@example.invalid",
+    "phone": "+91-9102688752",
+    "city": "Pune",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-04-22",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00482",
+    "name": "Anaya Rao",
+    "email": "anaya.rao482@example.invalid",
+    "phone": "+91-9210379834",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-09-07",
+    "preferred_categories": [
+      "Beauty",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00483",
+    "name": "Tara Kulkarni",
+    "email": "tara.kulkarni483@example.invalid",
+    "phone": "+91-9301408348",
+    "city": "Kolkata",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-09-23",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00484",
+    "name": "Maya Kapoor",
+    "email": "maya.kapoor484@example.invalid",
+    "phone": "+91-9400835664",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-10-05",
+    "preferred_categories": [
+      "Electronics",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00485",
+    "name": "Kabir Bose",
+    "email": "kabir.bose485@example.invalid",
+    "phone": "+91-9103954311",
+    "city": "Pune",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-04-24",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Books",
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00486",
+    "name": "Vikram Sinha",
+    "email": "vikram.sinha486@example.invalid",
+    "phone": "+91-9708872290",
+    "city": "Hyderabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-11-01",
+    "preferred_categories": [
+      "Fashion",
+      "Books",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00487",
+    "name": "Aditya Joshi",
+    "email": "aditya.joshi487@example.invalid",
+    "phone": "+91-9777491904",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2025-12-15",
+    "preferred_categories": [
+      "Electronics"
+    ]
+  },
+  {
+    "customer_id": "CUST-00488",
+    "name": "Neil Rao",
+    "email": "neil.rao488@example.invalid",
+    "phone": "+91-9329827335",
+    "city": "Delhi",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-08-01",
+    "preferred_categories": [
+      "Beauty",
+      "Home & Kitchen",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00489",
+    "name": "Arjun Sinha",
+    "email": "arjun.sinha489@example.invalid",
+    "phone": "+91-9521864838",
+    "city": "Bengaluru",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-08-02",
+    "preferred_categories": [
+      "Fashion",
+      "Electronics",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00490",
+    "name": "Aarav Patel",
+    "email": "aarav.patel490@example.invalid",
+    "phone": "+91-9728314209",
+    "city": "Bengaluru",
+    "loyalty_tier": "Silver",
+    "signup_date": "2025-12-20",
+    "preferred_categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00491",
+    "name": "Kabir Malhotra",
+    "email": "kabir.malhotra491@example.invalid",
+    "phone": "+91-9653423139",
+    "city": "Jaipur",
+    "loyalty_tier": "Gold",
+    "signup_date": "2025-05-01",
+    "preferred_categories": [
+      "Fashion",
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00492",
+    "name": "Vihaan Desai",
+    "email": "vihaan.desai492@example.invalid",
+    "phone": "+91-9581013540",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-07-13",
+    "preferred_categories": [
+      "Accessories",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00493",
+    "name": "Ira Chopra",
+    "email": "ira.chopra493@example.invalid",
+    "phone": "+91-9344777498",
+    "city": "Pune",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-02-17",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00494",
+    "name": "Tara Chopra",
+    "email": "tara.chopra494@example.invalid",
+    "phone": "+91-9146321114",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Silver",
+    "signup_date": "2024-12-17",
+    "preferred_categories": [
+      "Books",
+      "Fashion"
+    ]
+  },
+  {
+    "customer_id": "CUST-00495",
+    "name": "Dev Desai",
+    "email": "dev.desai495@example.invalid",
+    "phone": "+91-9966048985",
+    "city": "Indore",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-08-02",
+    "preferred_categories": [
+      "Fashion",
+      "Beauty"
+    ]
+  },
+  {
+    "customer_id": "CUST-00496",
+    "name": "Riya Desai",
+    "email": "riya.desai496@example.invalid",
+    "phone": "+91-9630779061",
+    "city": "Indore",
+    "loyalty_tier": "Silver",
+    "signup_date": "2023-12-07",
+    "preferred_categories": [
+      "Electronics",
+      "Beauty",
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00497",
+    "name": "Rohan Iyer",
+    "email": "rohan.iyer497@example.invalid",
+    "phone": "+91-9373296186",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-12-29",
+    "preferred_categories": [
+      "Grocery"
+    ]
+  },
+  {
+    "customer_id": "CUST-00498",
+    "name": "Meera Chopra",
+    "email": "meera.chopra498@example.invalid",
+    "phone": "+91-9460133415",
+    "city": "Ahmedabad",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-08-07",
+    "preferred_categories": [
+      "Grocery",
+      "Books"
+    ]
+  },
+  {
+    "customer_id": "CUST-00499",
+    "name": "Nisha Mehta",
+    "email": "nisha.mehta499@example.invalid",
+    "phone": "+91-9962593894",
+    "city": "Chennai",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2024-10-02",
+    "preferred_categories": [
+      "Accessories"
+    ]
+  },
+  {
+    "customer_id": "CUST-00500",
+    "name": "Kabir Mehta",
+    "email": "kabir.mehta500@example.invalid",
+    "phone": "+91-9823553291",
+    "city": "Kolkata",
+    "loyalty_tier": "Bronze",
+    "signup_date": "2023-09-30",
+    "preferred_categories": [
+      "Home & Kitchen"
+    ]
+  }
+]
