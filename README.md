@@ -1,156 +1,162 @@
 # NovaMart Multi-Category Retail Customer Support Copilot
 
-[live Demo](http://localhost:8502)
+> An AI-assisted support workspace that combines verified customer context, RAG, intent classification, similar-ticket retrieval, grounded response generation, and evaluation.
 
-## Project overview
+## Problem
 
-NovaMart is a fictional multi-category retailer. The copilot helps a human support agent understand a ticket, retrieve verified customer/order context, classify intent, find authoritative policy, retrieve similar historical cases, recommend the next action, and draft a grounded response.
+Support agents often need to combine information from customer records, orders, historical tickets, and policy documents before answering a single request.
 
-The system is **advisory only**. It does not execute refunds, cancellations, account changes, payment actions, or other destructive operations.
+NovaMart turns that workflow into one agent-facing workspace while keeping the **human support agent in control**.
+
+## What the copilot does
+
+1. Summarizes the incoming ticket
+2. Retrieves verified customer and order context
+3. Classifies the support intent
+4. Retrieves authoritative policy evidence
+5. Finds similar historical tickets
+6. Recommends the next action
+7. Drafts a grounded response with citations
+8. Captures feedback and evaluation signals
+
+The system is advisory and does not execute refunds, cancellations, account changes, payment actions, or other destructive operations.
 
 ## Architecture
 
 ```mermaid
 flowchart LR
-    UI[Streamlit Agent Workspace] --> SVC[Support Services]
-    SVC --> CTX[Customer Context]
-    SVC --> INT[Intent Classifier]
-    SVC --> SUM[Ticket Summarizer]
-    SVC --> RET[RAG Retriever]
-    SVC --> REC[Recommendation Engine]
-    SVC --> RESP[Response Generator]
-    CTX --> DATA[(JSON Repositories)]
-    RET --> KB[(Chroma: knowledge_base)]
-    RET --> ST[(Chroma: support_tickets)]
-    KB --> EMB[BAAI/bge-small-en-v1.5]
-    ST --> EMB
-    INT --> GROQ[Groq API / openai/gpt-oss-120b]
-    SUM --> GROQ
-    RESP --> GROQ
-    SVC --> FB[(Local Feedback JSONL)]
-    EVAL[Held-out Evaluation] --> SVC
+    U[Support Agent] --> UI[Streamlit Workspace]
+
+    UI --> S[Support Services]
+    S --> C[Customer / Order Context]
+    S --> I[Intent Classifier]
+    S --> SM[Ticket Summarizer]
+    S --> R[RAG Retriever]
+    S --> REC[Recommendation Engine]
+    S --> G[Response Generator]
+
+    R --> KB[(Chroma Knowledge Base)]
+    R --> ST[(Chroma Historical Tickets)]
+
+    KB --> E[BAAI/bge-small-en-v1.5]
+    ST --> E
+
+    I --> L[Groq / openai/gpt-oss-120b]
+    SM --> L
+    G --> L
+
+    S --> F[Feedback]
+    EVAL[Held-out Evaluation] --> S
 ```
 
-## Tech stack
+## RAG design
 
-- Python
-- Groq API
-- `openai/gpt-oss-120b`
-- Hugging Face `BAAI/bge-small-en-v1.5`
-- ChromaDB PersistentClient
-- Pydantic / pydantic-settings
-- Streamlit
-- pytest
+```text
+Authoritative policies
+    ↓
+metadata + chunking
+    ↓
+BGE embeddings
+    ↓
+Chroma knowledge_base
+    ↓
+Top-K retrieval
+
+Historical support tickets
+    ↓
+ground-truth fields excluded
+    ↓
+BGE embeddings
+    ↓
+Chroma support_tickets
+    ↓
+Similar-ticket retrieval
+
+Incoming ticket
+    ↓
+verified context + intent + summary
+    ↓
+policy retrieval + similar cases
+    ↓
+grounded response + citations
+```
+
+**Important grounding rule:** authoritative knowledge-base documents are treated as policy. Historical tickets are examples, not policy.
+
+## Evaluation
+
+The project includes a held-out evaluation split and reports:
+
+- Intent Accuracy
+- Intent Macro-F1
+- Retrieval Recall@5
+- Retrieval Precision@5
+- MRR
+- Groundedness Rate
+- Citation Correctness
+- Recommendation Agreement
+
+Generation-related metrics are implemented as transparent evidence checks rather than being presented as human-quality judgments.
 
 ## Dataset
 
-- 500 fictional customers
+Synthetic portfolio dataset:
+
+- 500 customers
 - 1,500 orders
 - 300 products
 - 1,000 support tickets
 - 28 knowledge documents
 - 20 held-out evaluation tickets
-- Eight product categories: Electronics, Fashion, Home & Kitchen, Beauty, Sports, Grocery, Books, Accessories
-
-Customer identifiers and contact data are synthetic. Email addresses use the reserved `.invalid` domain.
-
-### Evaluation split
-
-The final 20 tickets are held out in `data/evaluation_tickets.json`. They are **not indexed** in the `support_tickets` Chroma collection. Their `ground_truth_*` fields are retained only for evaluation and are removed before LLM inference.
-
-## RAG pipeline
-
-```text
-Markdown policy
-   -> frontmatter metadata
-   -> chunking with overlap
-   -> BGE embeddings
-   -> Chroma knowledge_base
-   -> similarity search TOP_K
-
-Historical tickets
-   -> ground-truth fields excluded
-   -> historical summary/resolution only
-   -> BGE embeddings
-   -> Chroma support_tickets
-   -> similarity search TOP_K
-
-Ticket
-   -> minimal verified customer/order context
-   -> intent + summary
-   -> authoritative KB retrieval
-   -> similar-ticket retrieval
-   -> grounded response + citations
-   -> recommendation
-```
-
-Knowledge-base documents are authoritative. Similar tickets are historical examples and are never treated as policy.
-
-## Controlled intent taxonomy
-
-`order_tracking`, `delivery_delay`, `missing_delivery`, `wrong_item`, `damaged_item`, `return_request`, `refund_request`, `exchange_request`, `order_cancellation`, `payment_failure`, `duplicate_charge`, `coupon_issue`, `warranty`, `product_question`, `account_issue`, `shipping_question`, `other`.
-
-## Features
-
-### Support queue
-
-Filter tickets by status, priority, intent, customer tier, and product category.
-
-### Ticket workspace
-
-Shows customer profile, relevant order, conversation, AI summary, intent/confidence, context, recommended action, similar tickets, retrieved knowledge, suggested response, citations, and feedback.
-
-### Knowledge base
-
-Browse or search indexed policy documents and inspect source metadata.
-
-### Diagnostics
-
-Inspect model configuration, collection sizes, retrieved documents, distances, and feedback volume.
-
-### Evaluation
-
-The evaluation page/script reports:
-
-- intent accuracy
-- intent macro F1
-- retrieval Recall@5
-- retrieval Precision@5
-- MRR
-- groundedness rate
-- citation correctness
-- recommendation agreement
-
-Generation-quality metrics such as groundedness/citation correctness are implemented as transparent evidence checks rather than pretending they are a human-quality judgment.
+- 8 retail categories
 
 ## Safety and grounding
 
-The model is explicitly forbidden from inventing:
+The system is designed not to invent:
 
-- refunds
+- refunds or discounts
 - delivery dates
-- discounts
 - order status
 - tracking events
 - policy exceptions
 - sensitive customer information
 
-If authoritative evidence is unavailable, the response is downgraded to:
+When authoritative evidence is unavailable, the system returns a manual-review recommendation instead of guessing.
 
-> Insufficient information — manual review recommended.
+## Tech stack
+
+`Python` · `Groq API` · `openai/gpt-oss-120b` · `BAAI/bge-small-en-v1.5` · `ChromaDB` · `Pydantic` · `Streamlit` · `pytest`
+
+## Repository structure
+
+```text
+pages/
+scripts/
+src/
+tests/
+app.py
+requirements.txt
+```
+
+## Run locally
+
+```bash
+git clone https://github.com/Riya-712/Customer-Support-Copilot.git
+cd Customer-Support-Copilot
+
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+
+pip install -r requirements.txt
+
+streamlit run app.py
+```
+
+Configure the required API/model environment variables before starting the app.
 
 ## Limitations
 
-- Synthetic data is useful for engineering demonstration but does not represent production customer behavior.
-- Retrieval uses dense similarity; production could add lexical/hybrid retrieval and a learned reranker.
-- The evaluation set contains 20 cases and should be expanded substantially before making quality claims.
-- Generation-quality metrics are automated proxies and should be supplemented with blinded human review.
-- Chroma is local/persistent for portfolio simplicity rather than a multi-user production vector service.
+The dataset is synthetic and the evaluation set is intentionally small for a portfolio project. Retrieval is dense-only, and Chroma runs locally rather than as a multi-user production service.
 
-## Future improvements
 
-- Add human-reviewed evaluation annotations.
-- Add OpenTelemetry/LLM tracing.
-- Add authentication and role-based access control.
-- Add production data retention and redaction policies.
-- Add CI with dependency/security scanning.
